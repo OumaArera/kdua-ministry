@@ -8,8 +8,7 @@ const Footer = () => {
   const ministryLinks = {
     ministry: [
       { name: 'About Us', href: '/kduah-ministry/about' },
-      { name: 'Our Philosophy', href: '/kduah-ministry/philosophy' },
-      { name: 'Leadership', href: '/kduah-ministry/leadership' },
+      { name: 'Our Team', href: '/kduah-ministry/our-team' },
     ],
     programs: [
       { name: 'Won', href: '/won' },

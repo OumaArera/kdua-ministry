@@ -4,6 +4,11 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from "react-route
 import './App.css';
 import Header from './layout/Header';
 import Footer from './layout/Footer';
+import Home from './components/ministry/Home';
+import OurTeam from './components/ministry/OurTeam';
+import AboutUs from './components/ministry/AboutUs';
+import WonHome from './components/won/WonHome';
+import WonLeadership from './components/won/WonLeadership';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -37,8 +42,11 @@ function AppContent({ activeSection, setActiveSection }) {
       <Header activeSection={activeSection} setActiveSection={setActiveSection} />
       <main className="flex-grow pt-24">
         <Routes>
-          {/* <Route path="/" element={<Dashboard />} /> */}
-          {/* <Route path="/won" element={<WonPage />} /> */}
+          <Route path="/" element={<Home />} />
+          <Route path="/kduah-ministry/our-team" element={<OurTeam />} />
+          <Route path="/won/team" element={<WonLeadership />} />
+          <Route path="/kduah-ministry/about" element={<AboutUs />} />
+          <Route path="/won" element={<WonHome />} />
           {/* <Route path="/aseda" element={<AsedaPage />} /> */}
           {/* <Route path="/ctcl" element={<CTCLPage />} /> */}
         </Routes>

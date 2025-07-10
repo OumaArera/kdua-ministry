@@ -65,14 +65,14 @@ const Header = ({ activeSection, setActiveSection }) => {
   return (
     <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${
       scrolled 
-        ? 'bg-gradient-to-r from-blue-50 to-teal-50 backdrop-blur-md shadow-xl border-b border-teal-100 py-2' 
-        : 'bg-gradient-to-r from-white via-blue-50 to-teal-50 py-3'
+        ? 'bg-white/95 backdrop-blur-md shadow-lg border-b border-slate-200 py-2' 
+        : 'bg-white/90 backdrop-blur-sm py-3'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center">
           <div className="flex items-center space-x-3 flex-shrink-0">
             <div className="flex-shrink-0">
-              <div className="h-12 md:h-16 w-12 md:w-16 bg-gradient-to-br from-teal-500 via-blue-500 to-purple-600 rounded-full flex items-center justify-center shadow-lg">
+              <div className="h-12 md:h-16 w-12 md:w-16 bg-gradient-to-br from-slate-700 to-slate-900 rounded-full flex items-center justify-center shadow-md">
                 <img 
                   src={logo} 
                   alt="Kduah Ministry Logo" 
@@ -81,10 +81,10 @@ const Header = ({ activeSection, setActiveSection }) => {
               </div>
             </div>
             <div className="hidden sm:block">
-              <h1 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-teal-700 via-blue-700 to-purple-700 bg-clip-text text-transparent">
+              <h1 className="text-xl md:text-2xl font-bold text-slate-800">
                 Kduah Ministry
               </h1>
-              <p className="text-xs md:text-sm bg-gradient-to-r from-teal-600 to-blue-600 bg-clip-text text-transparent font-semibold">
+              <p className="text-xs md:text-sm text-slate-600 font-medium">
                 The Gospel on Display
               </p>
             </div>
@@ -92,15 +92,15 @@ const Header = ({ activeSection, setActiveSection }) => {
 
           {/* Desktop Navigation - Centered */}
           <nav className="hidden md:flex items-center justify-center flex-1">
-            <div className="flex space-x-1 bg-gradient-to-r from-teal-100 to-blue-100 p-2 rounded-full shadow-inner border border-teal-200">
+            <div className="flex space-x-1 bg-slate-50 p-2 rounded-full shadow-sm border border-slate-200">
               {navigationItems.map((item) => (
                 <button
                   key={item.key}
                   onClick={() => handleNavigation(item.key)}
-                  className={`px-5 py-2.5 rounded-full transition-all duration-300 text-sm font-semibold ${
+                  className={`px-5 py-2.5 rounded-full transition-all duration-300 text-sm font-medium ${
                     activeSection === item.key
-                      ? 'bg-gradient-to-r from-teal-500 via-blue-500 to-purple-500 text-white shadow-lg transform scale-105 ring-2 ring-white ring-opacity-50'
-                      : 'text-teal-700 hover:bg-gradient-to-r hover:from-teal-200 hover:to-blue-200 hover:text-teal-800 hover:shadow-md'
+                      ? 'bg-slate-800 text-white shadow-md transform scale-105'
+                      : 'text-slate-700 hover:bg-slate-100 hover:text-slate-900 hover:shadow-sm'
                   }`}
                 >
                   {item.label}
@@ -115,17 +115,17 @@ const Header = ({ activeSection, setActiveSection }) => {
           {/* Mobile brand and menu toggle - Right side */}
           <div className="md:hidden flex items-center justify-between flex-1 ml-4">
             <div className="flex flex-col items-center">
-              <h1 className="text-sm font-bold bg-gradient-to-r from-teal-700 via-blue-700 to-purple-700 bg-clip-text text-transparent">
+              <h1 className="text-sm font-bold text-slate-800">
                 Kduah Ministry
               </h1>
-              <p className="text-xs bg-gradient-to-r from-teal-600 to-blue-600 bg-clip-text text-transparent font-semibold">
+              <p className="text-xs text-slate-600 font-medium">
                 The Gospel on Display
               </p>
             </div>
             
             <button
               onClick={toggleMenu}
-              className="text-white p-2.5 rounded-full bg-gradient-to-r from-teal-500 to-blue-500 hover:from-teal-600 hover:to-blue-600 focus:outline-none focus:ring-2 focus:ring-purple-400 transition-all duration-200 shadow-lg"
+              className="text-white p-2.5 rounded-full bg-slate-800 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-400 transition-all duration-200 shadow-md"
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -135,7 +135,7 @@ const Header = ({ activeSection, setActiveSection }) => {
 
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden bg-gradient-to-br from-white via-blue-50 to-teal-50 border-t border-teal-200 px-4 pt-3 pb-4 shadow-2xl max-w-full overflow-x-hidden">
+        <div className="md:hidden bg-white border-t border-slate-200 px-4 pt-3 pb-4 shadow-lg max-w-full overflow-x-hidden">
           <div className="flex flex-col space-y-2">
             {navigationItems.map((item) => (
               <button
@@ -143,9 +143,9 @@ const Header = ({ activeSection, setActiveSection }) => {
                 onClick={() => handleNavigation(item.key)}
                 className={`${
                   activeSection === item.key
-                    ? 'bg-gradient-to-r from-teal-500 via-blue-500 to-purple-500 text-white shadow-lg ring-2 ring-white ring-opacity-50'
-                    : 'text-teal-700 hover:bg-gradient-to-r hover:from-teal-100 hover:to-blue-100 hover:text-teal-800 hover:shadow-md'
-                } py-3.5 px-4 text-left rounded-xl transition-all duration-300 font-semibold border border-teal-200 hover:border-teal-300`}
+                    ? 'bg-slate-800 text-white shadow-md'
+                    : 'text-slate-700 hover:bg-slate-50 hover:text-slate-900'
+                } py-3.5 px-4 text-left rounded-lg transition-all duration-300 font-medium border border-slate-200 hover:border-slate-300`}
               >
                 {item.label}
               </button>
