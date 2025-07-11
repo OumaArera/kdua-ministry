@@ -9,6 +9,9 @@ import OurTeam from './components/ministry/OurTeam';
 import AboutUs from './components/ministry/AboutUs';
 import WonHome from './components/won/WonHome';
 import WonLeadership from './components/won/WonLeadership';
+import AsedaHome from './components/aseda/AsedaHome';
+import AsedaTeam from './components/aseda/AsedaTeam';
+import AsedaEvents from './components/aseda/AsedaEvents';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -44,10 +47,13 @@ function AppContent({ activeSection, setActiveSection }) {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/kduah-ministry/our-team" element={<OurTeam />} />
-          <Route path="/won/team" element={<WonLeadership />} />
+          
           <Route path="/kduah-ministry/about" element={<AboutUs />} />
           <Route path="/won" element={<WonHome />} />
-          {/* <Route path="/aseda" element={<AsedaPage />} /> */}
+          <Route path="/won/team" element={<WonLeadership />} />
+          <Route path="/aseda" element={<AsedaHome />} />
+          <Route path="/aseda/team" element={<AsedaTeam />} />
+          <Route path="/aseda/events" element={<AsedaEvents />} />
           {/* <Route path="/ctcl" element={<CTCLPage />} /> */}
         </Routes>
       </main>

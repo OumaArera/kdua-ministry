@@ -21,13 +21,13 @@ const WonHome = () => {
         <div className="max-w-6xl mx-auto text-center relative z-10">
           <div className="mb-8">
             <div className="text-6xl md:text-7xl mb-6 animate-bounce flex justify-center">
-                <img 
-                    src={logo}
-                    alt="WON Foundation Logo"
-                    className="h-20 md:h-28 w-auto object-contain"
-                  />
+              <img 
+                src={logo}
+                alt="WON Foundation Logo"
+                className="h-20 md:h-28 w-auto object-contain"
+              />
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-purple-700 via-blue-700 to-teal-700 bg-clip-text text-transparent mb-6">
+            <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold bg-gradient-to-r from-purple-700 via-blue-700 to-teal-700 bg-clip-text text-transparent mb-6">
               WON Foundation
             </h1>
             <div className="text-xl md:text-2xl font-semibold text-gray-700 mb-2">
