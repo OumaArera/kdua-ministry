@@ -2,7 +2,6 @@ import chairman from '../assets/chairman_photo.png';
 import richard from '../assets/richard_photo.png';
 import david_oduro from '../assets/david_oduro_photo.png';
 import doris_amuzu from '../assets/doris_amuzu_photo.png';
-import kwame from '../assets/kwame_photo.png';
 import obeng from '../assets/obeng_photo.png';
 import linda from  '../assets/linda_photo.png';
 
