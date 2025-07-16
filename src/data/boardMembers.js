@@ -24,7 +24,7 @@ export const messageOfTheGroupChairman = [
       both an inner mission—nurturing believers toward maturity in Christ—and 
       an outer mission—being God's instrument in addressing the needs of our world. 
       Every initiative we undertake, from supporting widows and orphans through 
-      our WON Foundation to equipping church leaders through LAMP-UP GH, reflects this dual commitment.
+      our WON Foundation to equipping church leaders through CTCL, reflects this dual commitment.
       Through our ASEDA Musical Concept and Recognition Awards, we also celebrate 
       those whose faithful service often goes unnoticed, inspiring a new generation of dedicated servants.
       I invite you to join us in this sacred mission. Whether through prayer, 
