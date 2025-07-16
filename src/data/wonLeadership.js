@@ -27,7 +27,7 @@ export const managementTeam = [
       image: richard
     },
     {
-      name: "DAVID ODURO BOAMA",
+      name: "DAVID BOAMAH-ODURO",
       role: "Executive Director",
       experience: `
         David holds a BCom (Accounting) from UCC, a Higher National Diploma in Accounting from Sunyani Technical University, Diploma in IT studies from Kessben Computer Training School. 
