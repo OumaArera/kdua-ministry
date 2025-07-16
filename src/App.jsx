@@ -13,6 +13,8 @@ import AsedaHome from './components/aseda/AsedaHome';
 import AsedaTeam from './components/aseda/AsedaTeam';
 import AsedaEvents from './components/aseda/AsedaEvents';
 import UpcomingEvents from './components/ministry/Upcoming.Events';
+import CTCLHome from './components/ctcl/CTCL.Home';
+import TeamModal from './components/ctcl/TeamModal';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -55,7 +57,8 @@ function AppContent({ activeSection, setActiveSection }) {
           <Route path="/aseda" element={<AsedaHome />} />
           <Route path="/aseda/team" element={<AsedaTeam />} />
           <Route path="/aseda/events" element={<AsedaEvents />} />
-          {/* <Route path="/ctcl" element={<CTCLPage />} /> */}
+          <Route path="/ctcl" element={<CTCLHome />} />
+          <Route path="/ctcl/team" element={<TeamModal />} />
         </Routes>
       </main>
       <Footer />

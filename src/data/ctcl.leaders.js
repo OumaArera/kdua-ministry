@@ -1,23 +1,44 @@
-import richmond from '../assets/richmod_photo.png';
 import chairman from '../assets/chairman_photo.png';
 import david_oduro from '../assets/david_oduro_photo.png';
-import doris_amuzu from '../assets/doris_amuzu_photo.png';
-import obeng from '../assets/obeng_photo.png';
 import lawrence from '../assets/lawrence_photo.png';
+import nixon from '../assets/nixon_snr_photo.png';
+import decosta from '../assets/decosta_photo.png';
+import seth from '../assets/seth_photo.png';
 
 export const managementTeam = [
     {
-      name: "ELDER RICHMOND AMUZU",
-      role: "Chief Patron",
+      name: "NIXON KWAKU DUAH",
+      role: "President",
       experience: `
-        Richmond Amuzu is married to Madam Glady Amuzu and has been blessed with 6 children, 2 men and 4 women.
-        He worked as a sales professional  in his early years of life from 1967 to 2000, with Continental Christian Trades( CCT) at Accra Ghana.
-        He is now the founder of Fish wisely Company in Accra Ghana.
-        Elder Amuzu was baptized into the  Church of Christ at his youthful age and since then has remain a Christian till date.
-        He has served the Nsawam road Church of Christ as an Elder for more than 20years.
-        He is the Chief Patron of Aseda Musical Concept and Recognition Award and  worships with Djama Church of Christ.
+        Nixon Kwaku Duah is married to Madam Paulina Duah since 1966 and has been blessed with 7children, 3 men and 4 women.
+        He started his primary education at Dantano Primary School and continued to Kukuom United Middle School where he completed in 1962 with distinction.
+        He went ahead to Akyirensua Secondary School from 1962 to 1967 for his GCE O Level.
+        He studied at National School of Salesmanship, Manchester England by correspondence and acquired Advance Diploma certificate in Salesmanship.
+        He further went to National Bible Institute (NBI) Accra now Heritage Christian University College for 2 years Biblical Studies and another 4 years for Advance Level Biblical Studies. 
+        He worked as a teacher in his early years of life from 1969 to 1972, at Hwidiem L/A Middle School, Dantano L/A Middle School and Sankore L/A Middle School.
+        He worked as a Salesman for 7 years, from 1973 to 1980 for two different companies namely; Prince Printing Press and Brimuro Gh Ltd (British Foreign Company)
+        Preacher Duah was baptized at Nsawam Road Church of Christ in August 1973 and since then has remain a Christian till date.
+        He went into active Gospel Ministry from 1981 to 2022, working 41years of his life as an active gospel preacher for about 7 different congregations.
+        Adieso Church of Christ
+        Akuapem Mampong Church of Christ
+        Jasikan Church of Christ
+        Obuasi-Boete Church of Christ 1994-2000
+        Kwahu Abetifi Church of Christ 2001-2007
+        Sefwi Dwenase Church of Christ 2009-2016
+        Mim Church of Christ 2017-2019
+        Obuasi-Boete Church of Christ 2020-2022
+        He has since relocated to his hometown Dantano and worships with the church there while assisting Kenyansi Church of Christ. 
+        He is now the President of Center for Transformation and Creative Leadership ( CTCL)
       `,
-      image: richmond
+      image: nixon
+    },
+    {
+      name: "BRO NKRUMAH BOTCHWAY",
+      role: "Patron",
+      experience: `
+        Lorem Ipsum
+      `,
+      image: null
     },
     {
       name: "KWAKU DUAH JUNIOR",
@@ -44,36 +65,55 @@ export const managementTeam = [
       image: david_oduro
     },
     {
-        name: "LAWRENCE AWARTEY",
-        role: "Operation Manager",
+        name: "EMMANUEL KANOR",
+        role: "Executive Secretary",
         experience: `
-        Lawrence Awartey holds a BSC Procurement and Supply Chain Management from University College of Management Studies,Diploma in Business Administration from University of Professional Studies. 
-        Diploma in Marketing from London Center of Marketing.He is a Procurement and Organization Business manager when it comes to procurement and its processes and tender for various hospital.  
-        Lawrence is known for hard and smart innovation in he’s field (Procurement & Supply Chain).  
-        Due to his moral and ethical diligence he got the opportunity to work with Traveler Paradise a sub-diary of Continental Christian Traders Limited (CCT-GROUP).
-        His formidable experience in Procurement & Supply Chain afforded him the opportunity to work with East Cantonments Pharmacy.He has worked with Korle Bu Teaching Hospital
-        Lawrence is now the Operations Manager for Med Point Solutions where he works with various Government entities to solve their urgent need.
+        He is a native of Big Ada in the Greater Accra Region of Ghana married with five children. 
+        A born again Christian who is passionate about the spread of the gospel and church planting. 
+        He holds a diploma in theology from church of Christ Bible college at Sunyani. 
+        As a professional teacher,he went to Atebubu college of education in 2001 and completed in 2004 teachers certificate A. 
+        Passionate about academic excellence,he had his Diploma in Basic education in Bechem college of education in 2009 and subsequently had my Degree in 2012 at University of education, winneba.He pursued higher and obtained masters in educational leadership and administration in 2019 at Valley view university in Techiman, Ghana.
+        Its my fervent prayer that all mankind will know their creator and their purpose on this earth.I want to know God more and therefore duty -conscious about kingdomnomics. 
         `,
         image: lawrence
     },
     {
-      name: "DORIS AMUZU DUAH",
-      role: "Group Director of Finance & Administration",
+      name: "DACOSTA OWUZU",
+      role: "General Secretary",
       experience: `
-        Doris Amuzu Duah hold a BA in Human Resource from the University of Winneba. 
-        She has worked with Fish wisely Company where she was the Head of Administration. 
-        Currently, she is the head of  Administration  and Finance for KDuah Ministries and Companies.
+        Dacosta Owusu Holds a diploma in Basic Education from Enchi College of Education. 
+        He also have a degree in Accounting Education from Valley View University and now pursuing a degree in Biblical studies at Ghana Bible College.
+        He is a professional trained teacher, who teaches at Bediako RC Junior high school and equally act as the assistant headteacher. 
+        Currently, he is the General Secretary for Cntre of Transformation and Creative Leadership.
       `,
-      image: doris_amuzu
+      image: decosta
     },
     {
-      name: "OBENG KYEI BAFFOUR",
-      role: "Event & Project Manager",
+      name: "BISMARK OWUSU",
+      role: "Finacial Secretary",
       experience: `
-        Obeng Kyei - Baffour- holds a Diploma in Theology from Heritage Bible Institute and now pursuing BSc. Media Communication at Heritage Christian University. 
-        He is a professional Journalism and Communicator. He is the Public Relation Manager for KDuah Ministries. 
-        Currently, he is the Head of News at Truth TV Accra Ghana.
+        Lorem ipsum dolor
       `,
-      image: obeng
+      image: null
+    },
+    {
+      name: "JACOB OSEI",
+      role: "Organizer",
+      experience: `
+        Lorem ipsum dolor
+      `,
+      image: null
+    },
+    {
+      name: "SETH ASIEDU",
+      role: "Monitoring & Evaluation Manager",
+      experience: `
+        Seth Asiedu hold Diploma in education from Atebubu Training College and a Bachelor’s degree in Mathematics Education from University of Education, Winneba. He was a tutor at Presbyterian Senior High School, Bechem. 
+        He gain admission to  Kwame Nkrumah University of Science and Technology, Kumasi in 2012 to study Master of Science (Industrial Mathematics). 
+        He also attended Ghana Bible College in 2017 and  became a preacher at Church of Christ, Derma in the Ahafo region till 2023. 
+        Seth is now a tutor at Tarkwa as a mathematics tutor in Fiaseman Senior High School and currently a Preacher at Tamso Church of Christ.
+        Seth has held a number of positions including; Head of Department for mathematics (at Presbyterian Senior High School, Bechem), Vice chair for United Nation Association of Ghana (Ahafo Region), an Associate member of Chartered Institute of Peace and Governance (CIPG) in Ghana and a currently the monitoring and evaluation manager  of Lamp-up GH.
+      `,
+      image: seth
     }
   ];
