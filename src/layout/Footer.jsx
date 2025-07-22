@@ -65,7 +65,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-4 mb-8">
-              <div className="w-16 h-16 sm:w-18 sm:h-18 lg:w-20 lg:h-20 bg-gradient-to-br rounded-xl flex items-center justify-center shadow-lg shadow-teal-500/20 transform transition-transform hover:scale-105">
+              <div className="h-16 md:h-20 w-16 md:w-20 bg-white rounded-full flex items-center justify-center shadow-md">
                 <img 
                   src={logo} 
                   alt="Kduah Ministry Logo" 

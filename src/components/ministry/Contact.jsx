@@ -3,7 +3,7 @@ import { Phone, Mail, MapPin, X } from 'lucide-react';
 
 const ContactUs = ({ isOpen, onClose }) => {
     const contactInfo = {
-        phones: ['+13257030636', '+233 24 909 9740'],
+        phones: ['+233 24 909 9740', '+1 (325) 703-0636', '+13257030636'],
         email: 'info@kduahministry.org',
         address: 'Gbawe, H/N 33, Tower School Dig\nGS-0047-3214 Accra, Ghana'
     };

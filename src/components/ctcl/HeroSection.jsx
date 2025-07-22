@@ -1,7 +1,7 @@
 import React from 'react';
 import { Phone, Users, Award, Target } from 'lucide-react';
 import leadership from '../../assets/ctcl/leadership.jpg';
-import logo from '../../assets/ctcl_logo.png';
+import logo from '../../assets/CTCL.png';
 
 const HeroSection = ({ onContactClick, onTeamClick, onMilestonesClick }) => {
   

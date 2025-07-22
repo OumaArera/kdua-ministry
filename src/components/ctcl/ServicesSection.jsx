@@ -1,8 +1,8 @@
 import React from 'react';
 import { BookOpen, Users, Target, User } from 'lucide-react';
-import creative from '../../assets/ctcl/creative.jpg';
-import technology from '../../assets/ctcl/technology.jpg';
-import ignite from '../../assets/ctcl/ignite.jpg';
+import creative from '../../assets/coaching.jpg';
+import technology from '../../assets/consulting.jpg';
+import ignite from '../../assets/training.jpg';
 
 const ServicesSection = () => {
   const services = [

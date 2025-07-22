@@ -1,5 +1,5 @@
 import React from 'react';
-import travel from '../../assets/ctcl/travel.jpg';
+import travel from '../../assets/CTCL.png';
 
 const AboutSection = () => {
   return (
@@ -11,12 +11,12 @@ const AboutSection = () => {
           </h2>
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 min-h-150 lg:grid-cols-2 gap-12 items-center">
           <div className="relative">
             <img 
               src={travel} 
               alt="Our Journey" 
-              className="w-full h-80 object-cover rounded-2xl shadow-2xl"
+              className="w-full h-full object-cover rounded-2xl shadow-2xl"
             />
             <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full opacity-20"></div>
           </div>

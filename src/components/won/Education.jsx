@@ -1,5 +1,5 @@
 import React, { useState, useRef, useCallback } from "react";
-import { ArrowLeft, ChevronLeft, ChevronRight, BookOpen, Users, GraduationCap, Award, X } from "lucide-react";
+import { ArrowLeft, ChevronLeft, ChevronRight, BookOpen, GraduationCap, Award, X } from "lucide-react";
 import { education } from "../../data/won.data";
 
 const Education = ({ onClose }) => {

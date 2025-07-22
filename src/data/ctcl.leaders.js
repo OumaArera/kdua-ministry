@@ -4,8 +4,21 @@ import lawrence from '../assets/lawrence_photo.png';
 import nixon from '../assets/nixon_snr_photo.png';
 import decosta from '../assets/decosta_photo.png';
 import seth from '../assets/seth_photo.png';
+import addai from '../assets/addai_photo.png';
+import daniel from '../assets/daniel_photo.png'
 
 export const managementTeam = [
+    {
+      name: "KWAKU DUAH JUNIOR",
+      role: "Founder ",
+      experience: `
+        Kwaku Duah Jnr. holds a Bachelor of Science degree in Accounting from Pentecost University, a Higher National Diploma in Accounting from Sunyani Technical University, a professional certificate in Journalism and a Master’s in Development Management from KNUST. He also have an MBA ( Accounting ) from Texas A&M University Corpus Christi (USA). 
+        He is a personal Development Coach and a young professional with great sense of achievement and the ability to initiate change and improve on existing operational systems. He also has a strong ethical and moral stance and also has worked with Continental Christian Traders Limited (CCT -Group) across the West African Sub-region as the Assistant Accountant and Advanced to the position of Internal Auditor in his three years with CCT- Group. He also worked with Glasten Estate limited where he was the Accountant and Assistant Tenancy relations Manager, as well as worked with Shaft FM and Parrot FM in Ghana. He served as the Chairman of Friends of village of Hope a mouth piece of Village of Hope Orphanage at Gomoa Fetteh. He is currently the Chairman of KDuah Ministries and Companies in Ghana.
+        He has worked with SITEL Group and Oliver Rainey & Wojket Accounting firm in Texas and also worked as a Senior Accountant at Davis Crane Motor Service in USA.  
+        Currently, he is the Accountant for Alcuin School in Dallas Texas and the Administration, Management  and Internal Audit Consultant for 1st Edmonds and Bothell serenity Home care in Washington State.
+      `,
+      image: chairman
+    },
     {
       name: "NIXON KWAKU DUAH",
       role: "President",
@@ -40,17 +53,7 @@ export const managementTeam = [
       `,
       image: null
     },
-    {
-      name: "KWAKU DUAH JUNIOR",
-      role: "Founder & President ",
-      experience: `
-        Kwaku Duah Jnr. holds a Bachelor of Science degree in Accounting from Pentecost University, a Higher National Diploma in Accounting from Sunyani Technical University, a professional certificate in Journalism and a Master’s in Development Management from KNUST. He also have an MBA ( Accounting ) from Texas A&M University Corpus Christi (USA). 
-        He is a personal Development Coach and a young professional with great sense of achievement and the ability to initiate change and improve on existing operational systems. He also has a strong ethical and moral stance and also has worked with Continental Christian Traders Limited (CCT -Group) across the West African Sub-region as the Assistant Accountant and Advanced to the position of Internal Auditor in his three years with CCT- Group. He also worked with Glasten Estate limited where he was the Accountant and Assistant Tenancy relations Manager, as well as worked with Shaft FM and Parrot FM in Ghana. He served as the Chairman of Friends of village of Hope a mouth piece of Village of Hope Orphanage at Gomoa Fetteh. He is currently the Chairman of KDuah Ministries and Companies in Ghana.
-        He has worked with SITEL Group and Oliver Rainey & Wojket Accounting firm in Texas and also worked as a Senior Accountant at Davis Crane Motor Service in USA.  
-        Currently, he is the Accountant for Alcuin School in Dallas Texas and the Administration, Management  and Internal Audit Consultant for 1st Edmonds and Bothell serenity Home care in Washington State.
-      `,
-      image: chairman
-    },
+    
     {
       name: "DAVID BOAMAH-ODURO",
       role: "Executive Director",
@@ -75,7 +78,7 @@ export const managementTeam = [
         Passionate about academic excellence,he had his Diploma in Basic education in Bechem college of education in 2009 and subsequently had my Degree in 2012 at University of education, winneba.He pursued higher and obtained masters in educational leadership and administration in 2019 at Valley view university in Techiman, Ghana.
         Its my fervent prayer that all mankind will know their creator and their purpose on this earth.I want to know God more and therefore duty -conscious about kingdomnomics. 
         `,
-        image: lawrence
+        image: null
     },
     {
       name: "DACOSTA OWUZU",
@@ -115,5 +118,30 @@ export const managementTeam = [
         Seth has held a number of positions including; Head of Department for mathematics (at Presbyterian Senior High School, Bechem), Vice chair for United Nation Association of Ghana (Ahafo Region), an Associate member of Chartered Institute of Peace and Governance (CIPG) in Ghana and a currently the monitoring and evaluation manager  of Lamp-up GH.
       `,
       image: seth
-    }
+    },
+    {
+      name: "Miss Addai Asankoma Rebecca ",
+      role: "Outreach Ambassador",
+      experience: `
+        Miss Asankoma is a passionate and service-driven young professional committed to health, truth, and transformation. With a strong sense of purpose and a heart for the needy, she  believes in using both science and compassion to make a meaningful difference.
+        She is  pursuing a degree in Medical Laboratory Science at KNUST.
+        Miss Asankoma has great leadership skills and excellence in public speaking.
+        She led the church of Christ Senior High School debate team to secure 4th place in the LUV FM High School Debate Competition, demonstrating strong leadership, teamwork, and communication skills.
+        Miss Asankoma is active in church outreach programs and faith-based initiatives focused on service and empowerment as well as  personal development in leadership and communication.
+        She is known for diligence, humility, and a desire to grow while helping others rise and as well as rooted in Christian values.
+        Miss Asankoma finds joy in serving God and people, and is committed to living a life of purpose and impact.
+
+      `,
+      image: addai
+    },
+    {
+      name: "Daniel Anyebas",
+      role: "Public Relation Officer",
+      experience: `
+        Daniel holds a diploma in Biblical studies and a Certificate in ICT. He is married with five children. 
+        Daniel is the gospel minister at Dechem Church of Christ and also works as the Head of IT at Michael Adjei Company Limited.
+        He has a strong desire to help the Churches of Christ in displaying the gospel to others and as well as rooted in Christian values.
+      `,
+      image: daniel
+    },
   ];

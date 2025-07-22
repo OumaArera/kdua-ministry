@@ -72,7 +72,7 @@ const Header = ({ activeSection, setActiveSection }) => {
         <div className="flex items-center">
           <div className="flex items-center space-x-3 flex-shrink-0">
             <div className="flex-shrink-0">
-              <div className="h-12 md:h-16 w-12 md:w-16 bg-gradient-to-br from-slate-700 to-slate-900 rounded-full flex items-center justify-center shadow-md">
+              <div className="h-16 md:h-20 w-16 md:w-20 bg-white rounded-full flex items-center justify-center shadow-md">
                 <img 
                   src={logo} 
                   alt="Kduah Ministry Logo" 
@@ -82,7 +82,7 @@ const Header = ({ activeSection, setActiveSection }) => {
             </div>
             <div className="hidden sm:block">
               <h1 className="text-xl md:text-2xl font-bold text-slate-800">
-                Kduah Ministry
+                KDuah Ministry
               </h1>
               <p className="text-xs md:text-sm text-slate-600 font-medium">
                 The Gospel on Display

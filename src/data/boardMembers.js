@@ -9,7 +9,9 @@ import emmanuel from '../assets/emmanuel_photo.png';
 import kwame from '../assets/kwame_photo.png';
 import lawrence from '../assets/lawrence_photo.png';
 import obeng from '../assets/obeng_photo.png';
-
+import phanuel from '../assets/phanuel_photo.png';
+import addai from '../assets/addai_photo.png';
+import frimpong from '../assets/frimpong_photo.png'
 
 export const messageOfTheGroupChairman = [
     {
@@ -33,7 +35,7 @@ export const messageOfTheGroupChairman = [
       put the Gospel on display through transformed lives and communities.
       May God's grace continue to guide our shared journey of faith and service.
       `,
-      role: "In His Service, Kwaku Duah Junior, Group Chairman"
+      role: "In His Service, Kwaku Duah Junior, Group Chairman & Founder"
     }
   ];
 
@@ -48,6 +50,17 @@ export const boardOfDirectors = [
         Currently, he is the Accountant for Alcuin School in Dallas Texas and the Administration, Management  and Internal Audit Consultant for 1st Edmonds and Bothell serenity Home care in Washington State.
       `,
       image: chairman
+    },
+    {
+      name: "Olivia Dumaah",
+      role: "Executive Assistant to the Group Chairman",
+      experience: `
+        Olivia Dumaah is a dedicated professional who combines a passion for education with a strong background in executive administration and I have a degree in Education with a specialization in English.As an Executive Assistant to the Group Chairman and a Teacher at Asankrangwa Senior High School, she plays a vital role in both corporate and academic settings.
+        With a keen eye for detail and a deep love for language, she excels in editing, proofreading, and supporting students in developing essential literacy skills. Her work in the classroom focuses on empowering learners—especially those who struggle with comprehension—to find confidence and clarity in reading and writing.
+        In her administrative role, she supports executive operations with professionalism, discretion, and a commitment to excellence. Her ability to manage complex schedules, communications, and tasks makes her an invaluable asset to leadership teams.
+        Outside of work, she is  passionate about reading, writing, and singing—creative outlets that inspire her both personally and professionally. Her career reflects a commitment to service, continuous growth, and the belief that education can transform lives.
+      `,
+      image: null
     },
     {
       name: "RICHARD ASAMOAH BAAH",
@@ -134,7 +147,7 @@ export const managementTeam = [
       image: aviana
     },
     {
-      name: "DAVID ODURO BOAMA",
+      name: "DAVID BOAMAH-ODURO",
       role: "Group Executive Director",
       experience: `
         David holds a BCom (Accounting) from UCC, a Higher National Diploma in Accounting from Sunyani Technical University, Diploma in IT studies from Kessben Computer Training School. 
@@ -215,7 +228,7 @@ export const managementTeam = [
         He is the Public Relation Manager for KDuah Ministries. 
         Currently, he is the Head of Editors at Truth TV, Accra, Ghana.
       `,
-      image: null
+      image: frimpong
     },
     {
       name: "PHANUEL DEMANYA",
@@ -224,6 +237,33 @@ export const managementTeam = [
         Phanuel is the Head-photography at Ancora Magazine and the CEO of Fotofarm and Eli Motors Limited. 
         He has worked as a photojournalist at the Ghana Armed Force, Department of Public Relation-Audiovisual. 
         He was the Technical Director at Photo Star and in charge of marketing.
+      `,
+      image: phanuel
+    },
+    {
+      name: "Miss Addai Asankoma Rebecca ",
+      role: "Group Outreach Ambassador",
+      experience: `
+        Miss Asankoma is a passionate and service-driven young professional committed to health, truth, and transformation. With a strong sense of purpose and a heart for the needy, she  believes in using both science and compassion to make a meaningful difference.
+        She is  pursuing a degree in Medical Laboratory Science at KNUST.
+        Miss Asankoma has great leadership skills and excellence in public speaking.
+        She led the church of Christ Senior High School debate team to secure 4th place in the LUV FM High School Debate Competition, demonstrating strong leadership, teamwork, and communication skills.
+        Miss Asankoma is active in church outreach programs and faith-based initiatives focused on service and empowerment as well as  personal development in leadership and communication.
+        She is known for diligence, humility, and a desire to grow while helping others rise and as well as rooted in Christian values.
+        Miss Asankoma finds joy in serving God and people, and is committed to living a life of purpose and impact.
+
+      `,
+      image: addai
+    },
+    {
+      name: "Kingsford Agyei",
+      role: "Group Graphic Designer & Social Media Handler",
+      experience: `
+        A highly creative self-taught and results-driven graphic designer with 6 years of experience in Branding, Marketing, and advertising.
+        Proven ability to translate client visions into compelling visual narratives, with a strong emphasis on user-centered design and brand consistency. 
+        Experience in creating visual content that communicates messages efficiently, managing multiple tasks simultaneously, and collaborating effectively with cross-functional teams. 
+        Passionate about creating impactful designs that drive business growth and enhance user experience. 
+        Kingsford is always seeking a challenging and rewarding role where he can leverage his skills and contribute to a dynamic team.
       `,
       image: null
     },

@@ -247,11 +247,23 @@ const OurTeam = () => {
                 </div>
               )}
               
-              <div className="text-center mt-8 pt-6 border-t border-gray-200">
-                <p className="text-lg font-semibold text-teal-700">
-                  {messageOfTheGroupChairman[0].role}
-                </p>
+              <div className="text-center mt-8 pt-6 border-t border-gray-200 space-y-1">
+                {messageOfTheGroupChairman[0].role.split(',').map((line, index) => (
+                  <p
+                    key={index}
+                    className={`text-lg ${
+                      index === 0
+                        ? 'italic text-gray-600'
+                        : index === 1
+                        ? 'font-semibold text-teal-800'
+                        : 'text-sm text-gray-500'
+                    }`}
+                  >
+                    {line.trim()}
+                  </p>
+                ))}
               </div>
+
             </div>
           </div>
         </div>

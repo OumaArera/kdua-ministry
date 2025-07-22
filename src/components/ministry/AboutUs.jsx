@@ -41,13 +41,13 @@ const AboutUs = () => {
             
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8">
               <span className="bg-gradient-to-r from-teal-700 via-blue-700 to-purple-700 bg-clip-text text-transparent">
-                About Kduah Ministry
+                About KDuah Ministry
               </span>
             </h2>
             
             <div className="max-w-4xl mx-auto">
               <p className="text-xl md:text-2xl text-gray-700 mb-6 leading-relaxed">
-                Kwaku Duah Ministry is an organization dedicated to helping local Churches of Christ understand their mission through the Great Commission.
+                KDuah Ministry is an organization dedicated to helping local Churches of Christ understand their mission through the Great Commission.
               </p>
               
               <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-teal-100/50">

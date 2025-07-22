@@ -21,7 +21,12 @@ import { Phone } from "lucide-react";
               <p className="text-gray-600 mt-2">Email: asedamusic@kduahministry.org</p>
               <p className="text-gray-600">Phone: +233 24 909 9740</p>
               <p className="text-gray-600">Phone: +233 50 391 0688</p>
-              <p className="text-gray-600">Location: Gbawe, H/N 33, Tower school Dig. Address: GS-0047-3214 Accra, Ghana</p>
+              <div>
+                <p className="text-sm text-gray-500">Visit us</p>
+                <p className="font-semibold text-gray-800">H/N 33, Tower School</p>
+                <p className="font-semibold text-gray-800">GS-0047-3214</p>
+                <p className="font-semibold text-gray-800">Accra Ghana</p>
+              </div>
             </div>
           </div>
           

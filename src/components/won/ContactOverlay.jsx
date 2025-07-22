@@ -47,7 +47,9 @@ const ContactOverlay = ({ isOpen, onClose }) => {
             </div>
             <div>
               <p className="text-sm text-gray-500">Visit us</p>
-              <p className="font-semibold text-gray-800">Gbawe, H/N 33, Tower school Dig. Address: GS-0047-3214 Accra, Ghana</p>
+              <p className="font-semibold text-gray-800">H/N 33, Tower School</p>
+              <p className="font-semibold text-gray-800">GS-0047-3214</p>
+              <p className="font-semibold text-gray-800">Accra Ghana</p>
             </div>
           </div>
           

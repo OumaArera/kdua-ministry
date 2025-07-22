@@ -4,6 +4,7 @@ import david_oduro from '../assets/david_oduro_photo.png';
 import doris_amuzu from '../assets/doris_amuzu_photo.png';
 import obeng from '../assets/obeng_photo.png';
 import linda from  '../assets/linda_photo.png';
+import addai from '../assets/addai_photo.png';
 
 export const managementTeam = [
     {
@@ -41,9 +42,9 @@ export const managementTeam = [
     },
     {
       name: "DORIS AMUZU DUAH",
-      role: "Group Director of Finance & Administration",
+      role: "Director of Finance & Administration",
       experience: `
-        Doris Amuzu Duah hold a BA in Human Resource from the University of Winneba. 
+        Doris Amuzu Duah hold a BA in Human Resource from the University of Education - Winneba. 
         She has worked with Fish wisely Company where she was the Head of Administration. 
         Currently, she is the head of  Administration  and Finance for KDuah Ministries and Companies.
       `,
@@ -71,6 +72,21 @@ export const managementTeam = [
         Currently, she works as  a caregiver coordinator at Bothell Serenity Adult Home Care in Washington State USA.
       `,
       image: linda
+    },
+    {
+      name: "Miss Addai Asankoma Rebecca ",
+      role: "Outreach Ambassador",
+      experience: `
+        Miss Asankoma is a passionate and service-driven young professional committed to health, truth, and transformation. With a strong sense of purpose and a heart for the needy, she  believes in using both science and compassion to make a meaningful difference.
+        She is  pursuing a degree in Medical Laboratory Science at KNUST.
+        Miss Asankoma has great leadership skills and excellence in public speaking.
+        She led the church of Christ Senior High School debate team to secure 4th place in the LUV FM High School Debate Competition, demonstrating strong leadership, teamwork, and communication skills.
+        Miss Asankoma is active in church outreach programs and faith-based initiatives focused on service and empowerment as well as  personal development in leadership and communication.
+        She is known for diligence, humility, and a desire to grow while helping others rise and as well as rooted in Christian values.
+        Miss Asankoma finds joy in serving God and people, and is committed to living a life of purpose and impact.
+
+      `,
+      image: addai
     },
   ];
 

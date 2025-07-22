@@ -4,8 +4,20 @@ import david_oduro from '../assets/david_oduro_photo.png';
 import doris_amuzu from '../assets/doris_amuzu_photo.png';
 import obeng from '../assets/obeng_photo.png';
 import lawrence from '../assets/lawrence_photo.png';
+import addai from '../assets/addai_photo.png';
 
 export const managementTeam = [
+    {
+      name: "KWAKU DUAH JUNIOR",
+      role: "Founder & President ",
+      experience: `
+        Kwaku Duah Jnr. holds a Bachelor of Science degree in Accounting from Pentecost University, a Higher National Diploma in Accounting from Sunyani Technical University, a professional certificate in Journalism and a Master’s in Development Management from KNUST. He also have an MBA ( Accounting ) from Texas A&M University Corpus Christi (USA). 
+        He is a personal Development Coach and a young professional with great sense of achievement and the ability to initiate change and improve on existing operational systems. He also has a strong ethical and moral stance and also has worked with Continental Christian Traders Limited (CCT -Group) across the West African Sub-region as the Assistant Accountant and Advanced to the position of Internal Auditor in his three years with CCT- Group. He also worked with Glasten Estate limited where he was the Accountant and Assistant Tenancy relations Manager, as well as worked with Shaft FM and Parrot FM in Ghana. He served as the Chairman of Friends of village of Hope a mouth piece of Village of Hope Orphanage at Gomoa Fetteh. He is currently the Chairman of KDuah Ministries and Companies in Ghana.
+        He has worked with SITEL Group and Oliver Rainey & Wojket Accounting firm in Texas and also worked as a Senior Accountant at Davis Crane Motor Service in USA.  
+        Currently, he is the Accountant for Alcuin School in Dallas Texas and the Administration, Management  and Internal Audit Consultant for 1st Edmonds and Bothell serenity Home care in Washington State.
+      `,
+      image: chairman
+    },
     {
       name: "ELDER RICHMOND AMUZU",
       role: "Chief Patron",
@@ -19,17 +31,7 @@ export const managementTeam = [
       `,
       image: richmond
     },
-    {
-      name: "KWAKU DUAH JUNIOR",
-      role: "Founder & President ",
-      experience: `
-        Kwaku Duah Jnr. holds a Bachelor of Science degree in Accounting from Pentecost University, a Higher National Diploma in Accounting from Sunyani Technical University, a professional certificate in Journalism and a Master’s in Development Management from KNUST. He also have an MBA ( Accounting ) from Texas A&M University Corpus Christi (USA). 
-        He is a personal Development Coach and a young professional with great sense of achievement and the ability to initiate change and improve on existing operational systems. He also has a strong ethical and moral stance and also has worked with Continental Christian Traders Limited (CCT -Group) across the West African Sub-region as the Assistant Accountant and Advanced to the position of Internal Auditor in his three years with CCT- Group. He also worked with Glasten Estate limited where he was the Accountant and Assistant Tenancy relations Manager, as well as worked with Shaft FM and Parrot FM in Ghana. He served as the Chairman of Friends of village of Hope a mouth piece of Village of Hope Orphanage at Gomoa Fetteh. He is currently the Chairman of KDuah Ministries and Companies in Ghana.
-        He has worked with SITEL Group and Oliver Rainey & Wojket Accounting firm in Texas and also worked as a Senior Accountant at Davis Crane Motor Service in USA.  
-        Currently, he is the Accountant for Alcuin School in Dallas Texas and the Administration, Management  and Internal Audit Consultant for 1st Edmonds and Bothell serenity Home care in Washington State.
-      `,
-      image: chairman
-    },
+    
     {
       name: "DAVID BOAMAH-ODURO",
       role: "Executive Director",
@@ -45,7 +47,7 @@ export const managementTeam = [
     },
     {
         name: "LAWRENCE AWARTEY",
-        role: "Operation Manager",
+        role: "Executive Secretary",
         experience: `
         Lawrence Awartey holds a BSC Procurement and Supply Chain Management from University College of Management Studies,Diploma in Business Administration from University of Professional Studies. 
         Diploma in Marketing from London Center of Marketing.He is a Procurement and Organization Business manager when it comes to procurement and its processes and tender for various hospital.  
@@ -58,7 +60,7 @@ export const managementTeam = [
     },
     {
       name: "DORIS AMUZU DUAH",
-      role: "Group Director of Finance & Administration",
+      role: "Director of Finance & Administration",
       experience: `
         Doris Amuzu Duah hold a BA in Human Resource from the University of Winneba. 
         She has worked with Fish wisely Company where she was the Head of Administration. 
@@ -75,5 +77,20 @@ export const managementTeam = [
         Currently, he is the Head of News at Truth TV Accra Ghana.
       `,
       image: obeng
-    }
+    },
+    {
+      name: "Miss Addai Asankoma Rebecca ",
+      role: "Outreach Ambassador",
+      experience: `
+        Miss Asankoma is a passionate and service-driven young professional committed to health, truth, and transformation. With a strong sense of purpose and a heart for the needy, she  believes in using both science and compassion to make a meaningful difference.
+        She is  pursuing a degree in Medical Laboratory Science at KNUST.
+        Miss Asankoma has great leadership skills and excellence in public speaking.
+        She led the church of Christ Senior High School debate team to secure 4th place in the LUV FM High School Debate Competition, demonstrating strong leadership, teamwork, and communication skills.
+        Miss Asankoma is active in church outreach programs and faith-based initiatives focused on service and empowerment as well as  personal development in leadership and communication.
+        She is known for diligence, humility, and a desire to grow while helping others rise and as well as rooted in Christian values.
+        Miss Asankoma finds joy in serving God and people, and is committed to living a life of purpose and impact.
+
+      `,
+      image: addai
+    },
   ];

@@ -24,7 +24,8 @@ const ContactOverlay = ({ isOpen, onClose }) => {
             </div>
             <div className="flex items-center space-x-3">
               <MapPin className="w-5 h-5 text-blue-600" />
-              <span className="text-gray-700">Gbawe, H/N 33, Tower school Dig. Address: GS-0047-3214 Accra, Ghana</span>
+              <span className="text-gray-700">BU-0055-7727</span>
+              <span className="text-gray-700">Ahafo Goaso, Ghana</span>
             </div>
           </div>
           <button 
