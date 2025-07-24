@@ -1,6 +1,8 @@
 import React from 'react';
-import { Facebook, Instagram, Youtube, Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
+import { FaWhatsapp, FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
 import logo from '../assets/logo.png';
+import ContactUs from '../components/ministry/Contact';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -17,14 +19,15 @@ const Footer = () => {
     ],
     connect: [
       { name: 'Visit Us', href: 'https://maps.google.com/?q=Gbawe,+H/N+33,+Tower+School+Dig,+Accra,+Ghana' },
-      { name: 'Join Us', href: '/kduah-ministry/join' }
+      // { name: 'Join Us', href: '/kduah-ministry/join' }
     ]
   };
 
   const socialLinks = [
-    { name: 'Facebook', icon: Facebook, href: 'https://facebook.com/kduahministry' },
-    { name: 'Instagram', icon: Instagram, href: 'https://instagram.com/kduahministry' },
-    { name: 'YouTube', icon: Youtube, href: 'https://youtube.com/kduahministry' }
+    { name: 'Facebook', icon: FaFacebook, href: 'https://facebook.com/kduahministry' },
+    { name: 'Instagram', icon: FaInstagram, href: 'https://instagram.com/kduah2000' },
+    { name: 'YouTube', icon: FaYoutube, href: 'https://youtube.com/kduahministry' },
+    { name: 'WhatsApp', icon: FaWhatsapp, href: 'https://wa.me/13257030636' }
   ];
 
   const contactInfo = [
@@ -41,6 +44,10 @@ const Footer = () => {
     } else {
       window.location.href = href;
     }
+  };
+
+  const handleSocialClick = (href) => {
+    window.open(href, '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -113,7 +120,7 @@ const Footer = () => {
                 {socialLinks.map((social, index) => (
                   <button
                     key={index}
-                    onClick={() => handleNavigation(social.href)}
+                    onClick={() => handleSocialClick(social.href)}
                     className="w-12 h-12 bg-slate-800/50 hover:bg-teal-500/20 border border-slate-700 hover:border-teal-500/50 rounded-xl flex items-center justify-center transition-all duration-200 group shadow-lg hover:shadow-teal-500/25"
                     title={social.name}
                   >

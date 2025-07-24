@@ -104,11 +104,11 @@ const HeroSection = ({ handleNavigation }) => {
               <div className="absolute bottom-4 md:bottom-6 left-4 md:left-6 right-4 md:right-6 z-20">
                 <div className="bg-black/50 backdrop-blur-sm rounded-xl p-3 md:p-4 text-white">
                   <h3 className="font-semibold text-base md:text-lg mb-1">
-                    {isCurrentImageLogo ? 'Our Ministry Partners' : 'Building Faith Communities'}
+                    {isCurrentImageLogo ? 'Our Ministry Subsidiary' : 'Building Faith Communities'}
                   </h3>
                   <p className="text-xs md:text-sm text-gray-300">
                     {isCurrentImageLogo 
-                      ? 'Expanding our reach through collaborative partnerships' 
+                      ? 'Expanding our reach through collaborative subsidiaries' 
                       : 'Nurturing spiritual growth through worship and fellowship'}
                   </p>
                 </div>

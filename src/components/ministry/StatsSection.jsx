@@ -1,5 +1,5 @@
 import React from 'react';
-import { Church, Users, Gift, Heart, Compass, Target } from 'lucide-react';
+import { Church, Users, Gift, Heart, Compass, Target, Sunrise, Cross, HelpingHand } from 'lucide-react';
 import logo from '../../assets/logo.png';
 
 const AboutSection = () => {
@@ -31,32 +31,38 @@ const AboutSection = () => {
           </p>
         </div>
 
-        {/* Mission, Vision, Core Values */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8 mb-12">
-          <div className="text-center group">
-            <div className="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-r from-teal-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-4 md:mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg group-hover:shadow-xl">
-              <Target className="w-8 h-8 md:w-10 md:h-10 text-white" />
+        {/* Mission & Vision + Core Values */}
+        <div className="grid grid-cols-1 gap-10 mb-12">
+          {/* Row 1: Mission & Vision */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8">
+            {/* Mission */}
+            <div className="text-center group">
+              <div className="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-r from-teal-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-4 md:mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg group-hover:shadow-xl">
+                <Target className="w-8 h-8 md:w-10 md:h-10 text-white" />
+              </div>
+              <h3 className="text-2xl md:text-3xl font-bold text-white mb-3 md:mb-4 group-hover:text-teal-300 transition-colors duration-300">
+                Mission
+              </h3>
+              <p className="text-gray-300 text-sm md:text-base leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
+                To partner with various churches of Christ in Ghana so we can fulfill the Great Commission by supporting them through events, resources, and programs designed to equip and train Christians effectively and develop the spiritual strength needed for the Lord's work.
+              </p>
             </div>
-            <h3 className="text-2xl md:text-3xl font-bold text-white mb-3 md:mb-4 group-hover:text-teal-300 transition-colors duration-300">
-              Mission
-            </h3>
-            <p className="text-gray-300 text-sm md:text-base leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
-              To partner with various churches of Christ in Ghana so we can fulfill the Great Commission by supporting them through events, resources, and programs designed to equip and train Christians effectively and develop the spiritual strength needed for the Lord's work.
-            </p>
-          </div>
-          
-          <div className="text-center group">
-            <div className="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-4 md:mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg group-hover:shadow-xl">
-              <Compass className="w-8 h-8 md:w-10 md:h-10 text-white" />
+
+            {/* Vision */}
+            <div className="text-center group">
+              <div className="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-4 md:mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg group-hover:shadow-xl">
+                <Compass className="w-8 h-8 md:w-10 md:h-10 text-white" />
+              </div>
+              <h3 className="text-2xl md:text-3xl font-bold text-white mb-3 md:mb-4 group-hover:text-blue-300 transition-colors duration-300">
+                Vision
+              </h3>
+              <p className="text-gray-300 text-sm md:text-base leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
+                To help various churches of Christ to understand the inner and outer mission of the Church through various programs and activities.
+              </p>
             </div>
-            <h3 className="text-2xl md:text-3xl font-bold text-white mb-3 md:mb-4 group-hover:text-blue-300 transition-colors duration-300">
-              Vision
-            </h3>
-            <p className="text-gray-300 text-sm md:text-base leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
-              To help various churches of Christ to understand the inner and outer mission of the Church through various programs and activities.
-            </p>
           </div>
-          
+
+          {/* Row 2: Core Values */}
           <div className="text-center group">
             <div className="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-r from-purple-500 to-teal-500 rounded-full flex items-center justify-center mx-auto mb-4 md:mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg group-hover:shadow-xl">
               <Heart className="w-8 h-8 md:w-10 md:h-10 text-white" />
@@ -64,11 +70,37 @@ const AboutSection = () => {
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-3 md:mb-4 group-hover:text-purple-300 transition-colors duration-300">
               Core Values
             </h3>
-            <p className="text-gray-300 text-sm md:text-base leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
-              Hope, Faith, and Charity - the foundational principles that guide all our ministry endeavors and community outreach.
-            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+              {/* Hope */}
+              <div className="text-center p-4 rounded-xl bg-white/5 border border-white/10">
+                <Sunrise className="w-12 h-12 text-teal-400 mx-auto mb-3" />
+                <h4 className="text-lg font-semibold text-white mb-2">Hope</h4>
+                <p className="text-gray-300 text-sm">
+                  Our ability to do God’s will even when it is hard because we know we will be rewarded for doing so.
+                </p>
+              </div>
+
+              {/* Faith */}
+              <div className="text-center p-4 rounded-xl bg-white/5 border border-white/10">
+                <Cross className="w-12 h-12 text-blue-400 mx-auto mb-3" />
+                <h4 className="text-lg font-semibold text-white mb-2">Faith</h4>
+                <p className="text-gray-300 text-sm">
+                  Our intimacy between God and humanity is expressed through faith and authentic faith requires action.
+                </p>
+              </div>
+
+              {/* Charity */}
+              <div className="text-center p-4 rounded-xl bg-white/5 border border-white/10">
+                <HelpingHand className="w-12 h-12 text-purple-400 mx-auto mb-3" />
+                <h4 className="text-lg font-semibold text-white mb-2">Charity</h4>
+                <p className="text-gray-300 text-sm">
+                  Our virtue that allows us to fulfill the two greatest commandments revealed by Jesus.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
+
 
         {/* What We Do */}
         <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-6 md:p-8 mb-12 border border-white/20">
