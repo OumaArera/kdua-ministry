@@ -37,7 +37,7 @@ const ContactOverlay = ({ isOpen, onClose }) => {
             </div>
             <div>
               <p className="text-sm text-gray-500">Email us</p>
-              <p className="font-semibold text-gray-800">wonfoundation@kduahministry.org</p>
+              <p className="font-semibold text-gray-800">info.wonfoundation@kduahministries.org</p>
             </div>
           </div>
           

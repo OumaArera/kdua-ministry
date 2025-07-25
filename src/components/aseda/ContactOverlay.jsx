@@ -18,7 +18,7 @@ import { Phone } from "lucide-react";
           <div className="space-y-4">
             <div className="text-center">
               <p className="text-gray-700 font-semibold">Contact Information</p>
-              <p className="text-gray-600 mt-2">Email: asedamusic@kduahministry.org</p>
+              <p className="text-gray-600 mt-2">Email: info.aseda@kduahministries.org</p>
               <p className="text-gray-600">Phone: +233 24 909 9740</p>
               <p className="text-gray-600">Phone: +233 50 391 0688</p>
               <div>
