@@ -22,12 +22,12 @@ const UpcomingEventsSection = () => {
             {duplicatedImages.map((img, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 rounded-2xl min-h-144 overflow-hidden min-w-[280px] md:min-w-[320px] lg:min-w-[400px] h-[200px] md:h-[250px] lg:h-[300px]"
+                className="flex-shrink-0 rounded-2xl overflow-hidden min-w-[280px] md:min-w-[320px] lg:min-w-[400px] h-96"
               >
                 <img
                   src={img}
                   alt={`Event ${index + 1}`}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
             ))}

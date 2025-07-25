@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import logo from '../assets/logo.png';
 
 const Header = ({ activeSection, setActiveSection }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const navigate = useNavigate()
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -18,9 +20,11 @@ const Header = ({ activeSection, setActiveSection }) => {
     
     // Example routing implementation - replace with your routing solution
     if (route === 'home') {
-      window.location.href = '/';
+      navigate('/')
+      // window.location.href = '/';
     } else {
-      window.location.href = `/${route}`;
+      navigate(`/${route}`)
+      // window.location.href = `/${route}`;
     }
   };
 
