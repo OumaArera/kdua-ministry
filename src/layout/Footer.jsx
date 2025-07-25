@@ -33,7 +33,7 @@ const Footer = () => {
   const contactInfo = [
     { icon: Phone, text: '+13257030636', href: 'tel:+13257030636' },
     { icon: Phone, text: '+233 24 909 9740', href: 'tel:+233249099740' },
-    { icon: Mail, text: 'info@kduahministry.org', href: 'mailto:info@kduahministries.org' },
+    { icon: Mail, text: 'info@kduahministries.org', href: 'mailto:info@kduahministries.org' },
     { icon: MapPin, text: 'Gbawe, H/N 33, Tower School Dig', href: 'https://maps.google.com/?q=Gbawe,+H/N+33,+Tower+School+Dig,+Accra,+Ghana' },
     { icon: MapPin, text: 'GS-0047-3214 Accra, Ghana', href: 'https://maps.google.com/?q=Gbawe,+H/N+33,+Tower+School+Dig,+Accra,+Ghana' }
   ];
