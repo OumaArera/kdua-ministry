@@ -1,5 +1,5 @@
 import React from "react";
-import chairman from '../../assets/ministry/team/Kwaku Duah Junior.jpg';
+import chairman from '../../assets/leaders/Kwaku Duah Junior1.jpg';
 import doris_effa from '../../assets/ministry/team/Doris Effah Kesse.jpg';
 import emmanuel from '../../assets/ministry/team/Emmanuel Victor Agyare.jpg';
 import kwame from '../../assets/ministry/team/Kwame Tawiah Duah.jpg';
