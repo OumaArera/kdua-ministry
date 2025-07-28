@@ -13,6 +13,7 @@ import phanuel from '../assets/phanuel_photo.png';
 import addai from '../assets/addai_photo.png';
 import frimpong from '../assets/frimpong_photo.png';
 import kingford from '../assets/kingford_photo.jpeg';
+import olivia from '../assets/olivia_photo.png';
 
 export const messageOfTheGroupChairman = [
     {
@@ -146,7 +147,7 @@ export const managementTeam = [
         In her administrative role, she supports executive operations with professionalism, discretion, and a commitment to excellence. Her ability to manage complex schedules, communications, and tasks makes her an invaluable asset to leadership teams.
         Outside of work, she is  passionate about reading, writing, and singing—creative outlets that inspire her both personally and professionally. Her career reflects a commitment to service, continuous growth, and the belief that education can transform lives.
       `,
-      image: null
+      image: olivia
     },
     {
       name: "DAVID BOAMAH-ODURO",

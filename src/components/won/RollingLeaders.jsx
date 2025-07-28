@@ -7,6 +7,7 @@ import linda from '../../assets/won/leaders/LINDA BARNIE EFFAH.jpg';
 import obeng from '../../assets/won/leaders/Obeng Kyei Baffour.jpg';
 import rebecca from '../../assets/won/leaders/Rebecca Asankoma Addai.jpg';
 import richard from '../../assets/won/leaders/Richard Asamoah Baah.jpg';
+import logo from '../../assets/won_logo.png';
 
 const RollingLeaders = () => {
   const teamMembers = [
@@ -17,9 +18,9 @@ const RollingLeaders = () => {
       isChairman: true
     },
     {
-      name: "Doris Effah Kesse",
-      title: "Board Member",
-      image: doris
+      name: "Richard Asamoah Baah",
+      title: "Chief Executive Officer",
+      image: richard
     },
     {
       name: "David Boamah-Oduro",
@@ -27,14 +28,15 @@ const RollingLeaders = () => {
       image: david
     },
     {
+      name: "Doris Effah Kesse",
+      title: "Board Member",
+      image: doris
+    },
+    
+    {
       name: "Linda Barnie Effah",
       title: "Board Member",
       image: linda
-    },
-    {
-      name: "Kingsford Agyei",
-      title: "Board Member",
-      image: kingford
     },
     {
       name: "Obeng Kyei Baffour",
@@ -42,15 +44,15 @@ const RollingLeaders = () => {
       image: obeng
     },
     {
-      name: "Richard Asamoah Baah",
-      title: "Chief Executive Officer",
-      image: richard
-    },
-    {
       name: "Rebecca Asankoma Addai",
       title: "Executive Director",
       image: rebecca
-    }
+    },
+    {
+      name: "Kingsford Agyei",
+      title: "Board Member",
+      image: kingford
+    },
   ];
 
   return (
@@ -58,7 +60,7 @@ const RollingLeaders = () => {
       {/* Header */}
       <div className="text-center mb-8">
         <h1 className="text-3xl font-bold text-pink-700  p-6 mx-4 rounded-lg shadow-lg">
-          Widows, Orphans, and Needy Foundation
+          Widows, Orphans, and Needy Foundation Leadership
         </h1>
       </div>
 
@@ -111,10 +113,13 @@ const RollingLeaders = () => {
           
           {/* Center Logo/Title */}
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="text-center bg-gradient-to-br from-cyan-500 to-blue-600 text-white rounded-full w-40 h-40 flex items-center justify-center shadow-2xl border-4 border-white">
+            <div className="text-center rounded-2xl w-40 h-40 flex items-center justify-center shadow-2xl">
               <div>
-                <h2 className="text-xl font-bold">Women, Orphans, & Needy</h2>
-                <p className="text-sm">Foundation</p>
+                <img 
+                  src={logo} 
+                  alt="WON Foundation logo"
+                  className="w-48 h-48 object-contain rounded-md"
+                />
               </div>
             </div>
           </div>

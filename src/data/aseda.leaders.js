@@ -6,6 +6,11 @@ import obeng from '../assets/obeng_photo.png';
 import lawrence from '../assets/lawrence_photo.png';
 import addai from '../assets/addai_photo.png';
 
+import david_gomado from '../assets/david_gomado.png';
+import kingford from '../assets/kingford_photo.jpeg';
+import olivia from '../assets/olivia_photo.png';
+import phanuel from '../assets/phanuel_photo.png';
+
 export const managementTeam = [
     {
       name: "KWAKU DUAH JUNIOR",
@@ -92,5 +97,50 @@ export const managementTeam = [
 
       `,
       image: addai
+    },
+    {
+      name: "DAVID D. G. GOMADO",
+      role: "Director of  Communication ",
+      experience: `
+        David Gomado is a Ghanaian communications professional with a diverse background in journalism, communications, and public leadership. 
+        He  holds a Bachelor degree and Masters degree in Communication from AUCC. David worked as the Administrator at CCT GROUP and also the Business Development manager at Glasten Rental. 
+        Currently, he serves as the Communications and Alumni Associate at Emerging Public Leaders, a role he's held since 2024.Prior to his current position, Gomado worked as a Communication Support at the Ghana Center For Democratic Development from 2020 to 2024. 
+        He's also a freelance journalist, covering topics such as environment and health in Ghana . Gomado's work has focused on promoting democratic development, public leadership, and social issues in Ghana. 
+        His expertise spans communications, journalism, and public policy, making him a versatile professional in his field.
+      `,
+      image: david_gomado
+    },
+    {
+      name: "PHANUEL DEMANYA",
+      role: "Publicity Manager",
+      experience: `
+        Phanuel is the Head-photography at Ancora Magazine and the CEO of Fotofarm and Eli Motors Limited. 
+        He has worked as a photojournalist at the Ghana Armed Force, Department of Public Relation-Audiovisual. 
+        He was the Technical Director at Photo Star and in charge of marketing.
+      `,
+      image: phanuel
+    },
+    {
+      name: "Olivia Dumaah",
+      role: "Executive Assistant",
+      experience: `
+        Olivia Dumaah is a dedicated professional who combines a passion for education with a strong background in executive administration and I have a degree in Education with a specialization in English.As an Executive Assistant to the Group Chairman and a Teacher at Asankrangwa Senior High School, she plays a vital role in both corporate and academic settings.
+        With a keen eye for detail and a deep love for language, she excels in editing, proofreading, and supporting students in developing essential literacy skills. Her work in the classroom focuses on empowering learners—especially those who struggle with comprehension—to find confidence and clarity in reading and writing.
+        In her administrative role, she supports executive operations with professionalism, discretion, and a commitment to excellence. Her ability to manage complex schedules, communications, and tasks makes her an invaluable asset to leadership teams.
+        Outside of work, she is  passionate about reading, writing, and singing—creative outlets that inspire her both personally and professionally. Her career reflects a commitment to service, continuous growth, and the belief that education can transform lives.
+      `,
+      image: olivia
+    },
+    {
+      name: "Kingsford Agyei",
+      role: "Creative & Design Manager",
+      experience: `
+        A highly creative self-taught and results-driven graphic designer with 6 years of experience in Branding, Marketing, and advertising.
+        Proven ability to translate client visions into compelling visual narratives, with a strong emphasis on user-centered design and brand consistency. 
+        Experience in creating visual content that communicates messages efficiently, managing multiple tasks simultaneously, and collaborating effectively with cross-functional teams. 
+        Passionate about creating impactful designs that drive business growth and enhance user experience. 
+        Kingsford is always seeking a challenging and rewarding role where he can leverage his skills and contribute to a dynamic team.
+      `,
+      image: kingford
     },
   ];

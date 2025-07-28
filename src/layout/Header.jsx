@@ -120,7 +120,7 @@ const Header = ({ activeSection, setActiveSection }) => {
           <div className="md:hidden flex items-center justify-between flex-1 ml-4">
             <div className="flex flex-col items-center">
               <h1 className="text-sm font-bold text-slate-800">
-                Kduah Ministry
+                KDuah Ministry
               </h1>
               <p className="text-xs text-slate-600 font-medium">
                 The Gospel on Display

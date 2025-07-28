@@ -8,6 +8,7 @@ import rebecca from '../../assets/ctcl/Rebecca Asankoma Addai.jpg';
 import nixon from '../../assets/ctcl/Rtd Pr. Nixon Kwaku Duah.jpg';
 import daniel from '../../assets/ctcl/Daniel Anyebas.jpg';
 import nkrumah from '../../assets/ctcl/Bro. Nkrumah Botchway.jpg';
+import logo from '../../assets/ctcl_logo.png';
 
 const RollingLeaders = () => {
   const teamMembers = [
@@ -118,10 +119,13 @@ const RollingLeaders = () => {
           
           {/* Center Logo/Title */}
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="text-center bg-gradient-to-br from-cyan-500 to-blue-600 text-white rounded-full w-40 h-40 flex items-center justify-center shadow-2xl border-4 border-white">
+            <div className="text-center rounded-2xl w-40 h-40 flex items-center justify-center shadow-2xl">
               <div>
-                <h2 className="text-xl font-bold">Center for Transformation</h2>
-                <p className="text-sm">& Creative Leadership</p>
+                <img 
+                  src={logo} 
+                  alt="CTCL logo"
+                  className="w-48 h-48 object-contain rounded-md"
+                />
               </div>
             </div>
           </div>
