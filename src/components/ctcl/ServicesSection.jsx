@@ -3,6 +3,9 @@ import { BookOpen, Users, Target, User } from 'lucide-react';
 import creative from '../../assets/coaching.jpg';
 import technology from '../../assets/consulting.jpg';
 import ignite from '../../assets/training.jpg';
+import coaching from '../../assets/ctcl/coaching.jpeg';
+import training from '../../assets/ctcl/training.jpeg';
+
 
 const ServicesSection = () => {
   const services = [
@@ -16,13 +19,13 @@ const ServicesSection = () => {
       title: "Coaching",
       icon: User,
       description: "Personalized mentorship to help leaders navigate challenges. One-on-one mentoring to enhance skills and confidence.",
-      image: creative
+      image: coaching
     },
     {
       title: "Training",
       icon: BookOpen,
       description: "Workshops, seminars, and conferences on council leadership, strategic planning, budgeting, and event planning.",
-      image: ignite
+      image: training
     }
   ];
 

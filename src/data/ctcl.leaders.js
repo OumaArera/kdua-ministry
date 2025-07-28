@@ -6,7 +6,7 @@ import decosta from '../assets/decosta_photo.png';
 import seth from '../assets/seth_photo.png';
 import addai from '../assets/addai_photo.png';
 import daniel from '../assets/daniel_photo.png'
-import nkrumah from "../assets/nkrumah_photo.png";
+import nkrumah from "../assets/nkuruma.png";
 
 export const managementTeam = [
     {

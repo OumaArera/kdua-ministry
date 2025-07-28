@@ -54,19 +54,19 @@ const WonProjects = ({ images }) => {
       impact: "Communities Empowered",
       galleryComponent: "community"
     },
-    {
-      id: 4,
-      title: "Educational Support",
-      description: "Providing scholarships, school supplies, and educational infrastructure for underprivileged children to break the cycle of poverty.",
-      icon: "📚",
-      image: images?.education || "https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=800&h=600&fit=crop",
-      gradient: "from-purple-500 to-indigo-600",
-      bgGradient: "from-purple-50/80 to-indigo-50/80",
-      status: "Active",
-      stats: "50+ Students Aided",
-      impact: "Dreams Realized",
-      galleryComponent: "education"
-    }
+    // {
+    //   id: 4,
+    //   title: "Educational Support",
+    //   description: "Providing scholarships, school supplies, and educational infrastructure for underprivileged children to break the cycle of poverty.",
+    //   icon: "📚",
+    //   image: images?.education || "https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=800&h=600&fit=crop",
+    //   gradient: "from-purple-500 to-indigo-600",
+    //   bgGradient: "from-purple-50/80 to-indigo-50/80",
+    //   status: "Active",
+    //   stats: "50+ Students Aided",
+    //   impact: "Dreams Realized",
+    //   galleryComponent: "education"
+    // }
   ];
 
   // Auto-slide functionality
@@ -106,8 +106,6 @@ const WonProjects = ({ images }) => {
         return <Widows onClose={closeGallery} />;
       case 'orphans':
         return <Orphans onClose={closeGallery} />;
-      case 'education':
-        return <Education onClose={closeGallery} />;
       case 'community':
         return <CommunityOutreach onClose={closeGallery} />;
       default:

@@ -7,6 +7,7 @@ import logo from '../../assets/aseda_logo.png';
 import home from '../../assets/aseda/speaker7.jpg';
 import home1 from '../../assets/aseda/sing4.jpg';
 import home2 from '../../assets/aseda/sing1.jpg';
+import RollingLeaders from './RollingLeaders';
 
 const AsedaHome = () => {
   const [isContactOpen, setIsContactOpen] = useState(false);
@@ -216,6 +217,8 @@ const AsedaHome = () => {
 
       {/* About Section */}
       <AboutAseda />
+
+      <RollingLeaders />
 
       {/* Core Values Section */}
       <CoreValues />

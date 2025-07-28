@@ -9,7 +9,7 @@ import upcoming5 from '../../assets/upcoming/upcm5.jpeg';
 
 
 const UpcomingEventsSection = () => {
-  const images = [upcoming1, upcoming2, upcoming3, upcoming4, upcoming5];
+  const images = [upcoming1, upcoming5];
 
   // Duplicate images for seamless scroll
   const duplicatedImages = [...images, ...images];

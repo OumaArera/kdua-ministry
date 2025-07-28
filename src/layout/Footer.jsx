@@ -31,10 +31,11 @@ const Footer = () => {
   ];
 
   const contactInfo = [
-    { icon: Phone, text: '+13257030636', href: 'tel:+13257030636' },
     { icon: Phone, text: '+233 24 909 9740', href: 'tel:+233249099740' },
+    { icon: Phone, text: '+1 (325) 703-0636', href: 'tel:+1 (325) 703-0636' },
+    { icon: Phone, text: '+13257030636', href: 'tel:+13257030636' },
     { icon: Mail, text: 'info@kduahministries.org', href: 'mailto:info@kduahministries.org' },
-    { icon: MapPin, text: 'Gbawe, H/N 33, Tower School Dig', href: 'https://maps.google.com/?q=Gbawe,+H/N+33,+Tower+School+Dig,+Accra,+Ghana' },
+    { icon: MapPin, text: 'Gbawe, H/N 33, Tower School', href: 'https://maps.google.com/?q=Gbawe,+H/N+33,+Tower+School+Dig,+Accra,+Ghana' },
     { icon: MapPin, text: 'GS-0047-3214 Accra, Ghana', href: 'https://maps.google.com/?q=Gbawe,+H/N+33,+Tower+School+Dig,+Accra,+Ghana' }
   ];
 
@@ -152,7 +153,7 @@ const Footer = () => {
 
             {/* Programs Links */}
             <div>
-              <h4 className="text-white text-xl font-semibold mb-6">Programs</h4>
+              <h4 className="text-white text-xl font-semibold mb-6">Subsidiaries</h4>
               <ul className="space-y-4">
                 {ministryLinks.programs.map((link, index) => (
                   <li key={index}>

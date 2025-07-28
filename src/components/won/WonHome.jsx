@@ -3,6 +3,7 @@ import { ArrowRight, Heart, Users, Phone } from 'lucide-react';
 import ContactOverlay from './ContactOverlay';
 import WonProjects from './WonProjects';
 import AboutWon from './AboutWon';
+import RollingLeaders from './RollingLeaders';
 import logo from '../../assets/won_logo.png';
 // WON project images
 import widow from '../../assets/won/wd5.jpg';
@@ -209,6 +210,10 @@ const WonHome = () => {
       {/* Projects Section with enhanced background */}
       <div className="relative z-10 bg-white/90 backdrop-blur-sm">
         <WonProjects images={projectImages} />
+      </div>
+
+      <div className="relative z-10 bg-white/90 backdrop-blur-sm">
+        <RollingLeaders />
       </div>
 
       {/* About Section with enhanced background */}

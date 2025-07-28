@@ -11,7 +11,8 @@ import lawrence from '../assets/lawrence_photo.png';
 import obeng from '../assets/obeng_photo.png';
 import phanuel from '../assets/phanuel_photo.png';
 import addai from '../assets/addai_photo.png';
-import frimpong from '../assets/frimpong_photo.png'
+import frimpong from '../assets/frimpong_photo.png';
+import kingford from '../assets/kingford_photo.jpeg';
 
 export const messageOfTheGroupChairman = [
     {
@@ -52,15 +53,14 @@ export const boardOfDirectors = [
       image: chairman
     },
     {
-      name: "Olivia Dumaah",
-      role: "Executive Assistant to the Group Chairman",
+      name: "AVIANA OHEMAA DONKOR-DUAH",
+      role: "Chief Executive Officer",
       experience: `
-        Olivia Dumaah is a dedicated professional who combines a passion for education with a strong background in executive administration and I have a degree in Education with a specialization in English.As an Executive Assistant to the Group Chairman and a Teacher at Asankrangwa Senior High School, she plays a vital role in both corporate and academic settings.
-        With a keen eye for detail and a deep love for language, she excels in editing, proofreading, and supporting students in developing essential literacy skills. Her work in the classroom focuses on empowering learners—especially those who struggle with comprehension—to find confidence and clarity in reading and writing.
-        In her administrative role, she supports executive operations with professionalism, discretion, and a commitment to excellence. Her ability to manage complex schedules, communications, and tasks makes her an invaluable asset to leadership teams.
-        Outside of work, she is  passionate about reading, writing, and singing—creative outlets that inspire her both personally and professionally. Her career reflects a commitment to service, continuous growth, and the belief that education can transform lives.
+        Though I am young, I am humbled to serve in this ministry that puts the Gospel on display. 
+        With Christ as our focus, I believe that every step we take—through love, service, and truth—helps fulfill the Great Commission. 
+        I am grateful to be part of this calling.
       `,
-      image: null
+      image: aviana
     },
     {
       name: "RICHARD ASAMOAH BAAH",
@@ -72,14 +72,17 @@ export const boardOfDirectors = [
       image: richard
     },
     {
-      name: "AVIANA OHEMAA DONKOR-DUAH",
-      role: "Chief Executive Officer",
+      name: "DAVID BOAMAH-ODURO",
+      role: "Executive Director",
       experience: `
-        Though I am young, I am humbled to serve in this ministry that puts the Gospel on display. 
-        With Christ as our focus, I believe that every step we take—through love, service, and truth—helps fulfill the Great Commission. 
-        I am grateful to be part of this calling.
+        David holds a BCom (Accounting) from UCC, a Higher National Diploma in Accounting from Sunyani Technical University, Diploma in IT studies from Kessben Computer Training School. 
+        He is currently pursuing Msc. Project Management at Accra Business School.  He is aimed at achieving the highest level of professionalism and competence in accounting and finance. 
+        He is seeking to apply his acquired accounting, financial and analytical skills to solve problems and enhance corporate growth in a very competitive environment that offers challenging opportunity for learning and professional advancement. 
+        He wishes to advance in Law soon. He has worked with various organizations and financial institutions including Mizpa Cooperative Credit Union as Accounts Clerk, Internal Auditor and Branch Manager, with Dalex Finance as Sales personnel and later Territory Sales Manager. 
+        Currently, he is a commissioner for oath certified by the Judicial Service of Ghana. He  was a field worker with the National Identification Authority of Ghana. 
+        Currently, he is the Account Officer at Consar Limited Ghana and the Executive Director for KDuah Ministries.
       `,
-      image: aviana
+      image: david_oduro
     },
     {
       name: "KWAME TAWIAH DUAH",
@@ -119,19 +122,7 @@ export const boardOfDirectors = [
       `,
       image: doris
     },
-    {
-      name: "DAVID BOAMAH-ODURO",
-      role: "Executive Director",
-      experience: `
-        David holds a BCom (Accounting) from UCC, a Higher National Diploma in Accounting from Sunyani Technical University, Diploma in IT studies from Kessben Computer Training School. 
-        He is currently pursuing Msc. Project Management at Accra Business School.  He is aimed at achieving the highest level of professionalism and competence in accounting and finance. 
-        He is seeking to apply his acquired accounting, financial and analytical skills to solve problems and enhance corporate growth in a very competitive environment that offers challenging opportunity for learning and professional advancement. 
-        He wishes to advance in Law soon. He has worked with various organizations and financial institutions including Mizpa Cooperative Credit Union as Accounts Clerk, Internal Auditor and Branch Manager, with Dalex Finance as Sales personnel and later Territory Sales Manager. 
-        Currently, he is a commissioner for oath certified by the Judicial Service of Ghana. He  was a field worker with the National Identification Authority of Ghana. 
-        Currently, he is the Account Officer at Consar Limited Ghana and the Executive Director for KDuah Ministries.
-      `,
-      image: david_oduro
-    }
+    
   ];
 
 export const managementTeam = [
@@ -145,6 +136,17 @@ export const managementTeam = [
         With faith, hope, and charity as our guiding values, I look forward to growing in this role as we continue to equip the saints, support local congregations, and glorify God in all we do.
       `,
       image: aviana
+    },
+    {
+      name: "Olivia Dumaah",
+      role: "Executive Assistant to the Group Chairman",
+      experience: `
+        Olivia Dumaah is a dedicated professional who combines a passion for education with a strong background in executive administration and I have a degree in Education with a specialization in English.As an Executive Assistant to the Group Chairman and a Teacher at Asankrangwa Senior High School, she plays a vital role in both corporate and academic settings.
+        With a keen eye for detail and a deep love for language, she excels in editing, proofreading, and supporting students in developing essential literacy skills. Her work in the classroom focuses on empowering learners—especially those who struggle with comprehension—to find confidence and clarity in reading and writing.
+        In her administrative role, she supports executive operations with professionalism, discretion, and a commitment to excellence. Her ability to manage complex schedules, communications, and tasks makes her an invaluable asset to leadership teams.
+        Outside of work, she is  passionate about reading, writing, and singing—creative outlets that inspire her both personally and professionally. Her career reflects a commitment to service, continuous growth, and the belief that education can transform lives.
+      `,
+      image: null
     },
     {
       name: "DAVID BOAMAH-ODURO",
@@ -163,7 +165,7 @@ export const managementTeam = [
       name: "DORIS AMUZU DUAH",
       role: "Group Director of Finance & Administration",
       experience: `
-        Doris Amuzu Duah hold a BA in Human Resource from the University of Winneba. 
+        Doris Amuzu Duah hold a BA in Human Resource from the University of Education-Winneba. 
         She has worked with Fish wisely Company where she was the Head of Administration. 
         Currently, she is the head of  Administration  and Finance for KDuah Ministries and Companies.
       `,
@@ -257,7 +259,7 @@ export const managementTeam = [
     },
     {
       name: "Kingsford Agyei",
-      role: "Group Graphic Designer & Social Media Handler",
+      role: "Group Creative & Design Manager",
       experience: `
         A highly creative self-taught and results-driven graphic designer with 6 years of experience in Branding, Marketing, and advertising.
         Proven ability to translate client visions into compelling visual narratives, with a strong emphasis on user-centered design and brand consistency. 
@@ -265,6 +267,6 @@ export const managementTeam = [
         Passionate about creating impactful designs that drive business growth and enhance user experience. 
         Kingsford is always seeking a challenging and rewarding role where he can leverage his skills and contribute to a dynamic team.
       `,
-      image: null
+      image: kingford
     },
   ];

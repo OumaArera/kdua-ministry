@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Phone } from 'lucide-react';
 import ContactOverlay from './ContactOverlay';
 import HeroSection from './HeroSection';
 import MissionVisionSection from './MissionVisionSection';
@@ -10,6 +9,7 @@ import WhatWeStandForSection from './WhatWeStandForSection';
 import ContactCTASection from './ContactCTASection';
 import TeamModal from './TeamModal';
 import MilestonesModal from './MilestonesModal';
+import RollingLeaders from './RollingLeaders';
 
 const CTCLHome = () => {
   const [isContactOpen, setIsContactOpen] = useState(false);
@@ -23,6 +23,7 @@ const CTCLHome = () => {
         onTeamClick={() => setIsTeamModalOpen(true)}
         onMilestonesClick={() => setIsMilestonesModalOpen(true)}
       />
+      <RollingLeaders />
       <MissionVisionSection />
       <ServicesSection />
       <CoreValuesSection />

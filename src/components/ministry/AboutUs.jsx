@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Users, Heart, BookOpen, ChevronDown, ChevronUp, Target, Eye, Sparkles, Globe, Church, ArrowRight, Quote, Star } from 'lucide-react';
+import { Users, Heart, BookOpen, ChevronDown, ChevronUp, Target, Eye, Sparkles, Globe, Church, ArrowRight, Quote, Star, Sunrise, Cross, HelpingHand } from 'lucide-react';
 import ContactUs from "./Contact";
 
 
@@ -140,21 +140,36 @@ const AboutUs = () => {
 
             <div className="group bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-purple-100/50 hover:shadow-xl transition-all duration-500 transform hover:-translate-y-2">
               <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-teal-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Sparkles className="w-8 h-8 text-white" />
+                <Heart className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4 group-hover:text-purple-700 transition-colors">Core Values</h3>
-              <div className="space-y-4">
-                <div className="flex items-center group/item">
-                  <div className="w-4 h-4 bg-gradient-to-r from-teal-500 to-blue-500 rounded-full mr-4 group-hover/item:scale-125 transition-transform"></div>
-                  <span className="text-gray-700 font-semibold text-lg group-hover/item:text-teal-700 transition-colors">Hope</span>
+              <h3 className="text-2xl font-bold text-gray-800 mb-6 group-hover:text-purple-700 transition-colors">Core Values</h3>
+              
+              <div className="grid grid-cols-1 gap-6">
+                {/* Hope */}
+                <div className="text-center p-4 rounded-xl bg-gradient-to-r from-teal-50 to-blue-50 border border-teal-100">
+                  <Sunrise className="w-12 h-12 text-teal-500 mx-auto mb-3" />
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Hope</h4>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    Our ability to do God's will even when it is hard because we know we will be rewarded for doing so.
+                  </p>
                 </div>
-                <div className="flex items-center group/item">
-                  <div className="w-4 h-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mr-4 group-hover/item:scale-125 transition-transform"></div>
-                  <span className="text-gray-700 font-semibold text-lg group-hover/item:text-blue-700 transition-colors">Faith</span>
+
+                {/* Faith */}
+                <div className="text-center p-4 rounded-xl bg-gradient-to-r from-blue-50 to-purple-50 border border-blue-100">
+                  <Cross className="w-12 h-12 text-blue-500 mx-auto mb-3" />
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Faith</h4>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    Our intimacy between God and humanity is expressed through faith and authentic faith requires action.
+                  </p>
                 </div>
-                <div className="flex items-center group/item">
-                  <div className="w-4 h-4 bg-gradient-to-r from-purple-500 to-teal-500 rounded-full mr-4 group-hover/item:scale-125 transition-transform"></div>
-                  <span className="text-gray-700 font-semibold text-lg group-hover/item:text-purple-700 transition-colors">Charity</span>
+
+                {/* Charity */}
+                <div className="text-center p-4 rounded-xl bg-gradient-to-r from-purple-50 to-teal-50 border border-purple-100">
+                  <HelpingHand className="w-12 h-12 text-purple-500 mx-auto mb-3" />
+                  <h4 className="text-lg font-semibold text-gray-800 mb-2">Charity</h4>
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    Our virtue that allows us to fulfill the two greatest commandments revealed by Jesus.
+                  </p>
                 </div>
               </div>
             </div>
