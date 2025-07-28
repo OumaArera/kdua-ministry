@@ -173,7 +173,7 @@ export const managementTeam = [
     },
     {
       name: "Olivia Dumaah",
-      role: "Executive Assistant",
+      role: "Executive Assistant to the Group Chairman",
       experience: `
         Olivia Dumaah is a dedicated professional who combines a passion for education with a strong background in executive administration and I have a degree in Education with a specialization in English.As an Executive Assistant to the Group Chairman and a Teacher at Asankrangwa Senior High School, she plays a vital role in both corporate and academic settings.
         With a keen eye for detail and a deep love for language, she excels in editing, proofreading, and supporting students in developing essential literacy skills. Her work in the classroom focuses on empowering learners—especially those who struggle with comprehension—to find confidence and clarity in reading and writing.

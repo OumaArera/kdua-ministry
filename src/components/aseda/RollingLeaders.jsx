@@ -17,24 +17,19 @@ const RollingLeaders = () => {
       isChairman: true
     },
     {
-      name: "Doris Effah Kesse",
-      title: "Board Member",
-      image: doris
-    },
-    {
       name: "Elder Richmond Amuzu",
       title: "Board Member",
       image: richmond
     },
     {
-      name: "Kingsford Agyei",
-      title: "Board Member",
-      image: kingford
-    },
-    {
       name: "Lawrence Awartey",
       title: "Chief of Staff",
       image: lawrence
+    },
+    {
+      name: "Doris Effah Kesse",
+      title: "Board Member",
+      image: doris
     },
     {
       name: "Obeng Kyei Baffour",
@@ -45,7 +40,12 @@ const RollingLeaders = () => {
       name: "Rebecca Asankoma Addai",
       title: "Executive Director",
       image: rebecca
-    }
+    },
+    {
+      name: "Kingsford Agyei",
+      title: "Board Member",
+      image: kingford
+    },
   ];
 
   return (

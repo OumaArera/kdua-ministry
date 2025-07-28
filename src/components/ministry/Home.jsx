@@ -10,6 +10,7 @@ import UpcomingEventsSection from './UpcomingEventsSection';
 import CallToActionSection from './CallToActionSection';
 import RollingLeaders from './RollingLeaders';
 import Management from './Management';
+import Team from './Team';
 
 const Home = () => {
   const [showContact, setShowContact] = useState(false);
@@ -32,6 +33,7 @@ const Home = () => {
       <ProgramsSection handleNavigation={handleNavigation} />
       <RollingLeaders />
       <Management />
+      <Team />
       <AboutSection />
       <UpcomingEventsSection />
       <CallToActionSection 

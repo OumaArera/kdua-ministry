@@ -25,9 +25,9 @@ const RollingLeaders = () => {
       isChairman: false
     },
     {
-      name: "Dacosta Owusu",
-      title: "Board Member",
-      image: dacosta
+      name: "Bro. Nkrumah Botchway",
+      title: "Chief Executive Officer",
+      image: nkrumah
     },
     {
       name: "David Boamah-Oduro",
@@ -35,19 +35,9 @@ const RollingLeaders = () => {
       image: david
     },
     {
-      name: "Seth Asiedu",
+      name: "Dacosta Owusu",
       title: "Board Member",
-      image: seth
-    },
-    {
-      name: "Kingsford Agyei",
-      title: "Board Member",
-      image: kingford
-    },
-    {
-      name: "Bro. Nkrumah Botchway",
-      title: "Chief Executive Officer",
-      image: nkrumah
+      image: dacosta
     },
     {
       name: "Daniel Anyebas",
@@ -55,10 +45,20 @@ const RollingLeaders = () => {
       image: daniel
     },
     {
+      name: "Seth Asiedu",
+      title: "Board Member",
+      image: seth
+    },
+    {
       name: "Rebecca Asankoma Addai",
       title: "Executive Director",
       image: rebecca
-    }
+    },
+    {
+      name: "Kingsford Agyei",
+      title: "Board Member",
+      image: kingford
+    },
   ];
 
   return (
