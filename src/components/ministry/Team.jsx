@@ -144,7 +144,7 @@ const Team = () => {
       {/* Header */}
       <div className="text-center mb-8">
         <h1 className="text-4xl font-bold text-white p-6 mx-4 rounded-lg shadow-lg">
-          KDuah Ministry Management
+          KDuah Ministry Team
         </h1>
       </div>
 
