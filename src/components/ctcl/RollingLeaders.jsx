@@ -8,7 +8,9 @@ import rebecca from '../../assets/ctcl/Rebecca Asankoma Addai.jpg';
 import nixon from '../../assets/ctcl/Rtd Pr. Nixon Kwaku Duah.jpg';
 import daniel from '../../assets/ctcl/Daniel Anyebas.jpg';
 import nkrumah from '../../assets/ctcl/Bro. Nkrumah Botchway.jpg';
-import logo from '../../assets/ctcl_logo.png';
+import gomado from '../../assets/ministry/team/DAVID  GOMADO.jpg';
+import olivia from '../../assets/ministry/team/Olivia Dumaah.jpg';
+import logo from '../../assets/CTCL.png';
 
 const RollingLeaders = () => {
   const teamMembers = [
@@ -58,6 +60,16 @@ const RollingLeaders = () => {
       name: "Kingsford Agyei",
       title: "Board Member",
       image: kingford
+    },
+    {
+      name: "David Gomado",
+      title: "Board Member",
+      image: gomado
+    },
+    {
+      name: "Olivia",
+      title: "Board Member",
+      image: olivia
     },
   ];
 
