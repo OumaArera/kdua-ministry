@@ -7,6 +7,10 @@ import linda from '../../assets/won/leaders/LINDA BARNIE EFFAH.jpg';
 import obeng from '../../assets/won/leaders/Obeng Kyei Baffour.jpg';
 import rebecca from '../../assets/won/leaders/Rebecca Asankoma Addai.jpg';
 import richard from '../../assets/won/leaders/Richard Asamoah Baah.jpg';
+import gomado from '../../assets/ministry/team/DAVID  GOMADO.jpg';
+import olivia from '../../assets/ministry/team/Olivia Dumaah.jpg';
+import lawrence from '../../assets/ministry/team/Lawrence Awartey.jpg';
+import phanuel from '../../assets/ministry/team/Phannuel Demanya.jpg';
 import logo from '../../assets/won_logo.png';
 
 const RollingLeaders = () => {
@@ -52,6 +56,26 @@ const RollingLeaders = () => {
       name: "Kingsford Agyei",
       title: "Board Member",
       image: kingford
+    },
+    {
+      name: "Olivia",
+      title: "Board Member",
+      image: olivia
+    },
+    {
+      name: "Phanuel",
+      title: "Board Member",
+      image: phanuel
+    },
+    {
+      name: "Gomado",
+      title: "Board Member",
+      image: gomado
+    },
+    {
+      name: "Lawrence",
+      title: "Board Member",
+      image: lawrence
     },
   ];
 

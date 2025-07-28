@@ -9,6 +9,7 @@ import david_gomado from '../assets/david_gomado.png';
 import kingford from '../assets/kingford_photo.jpeg';
 import olivia from '../assets/olivia_photo.png';
 import phanuel from '../assets/phanuel_photo.png';
+import lawrence from '../assets/lawrence_photo.png';
 
 
 export const managementTeam = [
@@ -137,6 +138,19 @@ export const managementTeam = [
         Kingsford is always seeking a challenging and rewarding role where he can leverage his skills and contribute to a dynamic team.
       `,
       image: kingford
+    },
+    {
+      name: "LAWRENCE AWARTEY",
+      role: "Operation Manager",
+      experience: `
+        Lawrence Awartey holds a BSC Procurement and Supply Chain Management from University College of Management Studies,Diploma in Business Administration from University of Professional Studies. 
+        Diploma in Marketing from London Center of Marketing.He is a Procurement and Organization Business manager when it comes to procurement and its processes and tender for various hospital.  
+        Lawrence is known for hard and smart innovation in he’s field (Procurement & Supply Chain).  
+        Due to his moral and ethical diligence he got the opportunity to work with Traveler Paradise a sub-diary of Continental Christian Traders Limited (CCT-GROUP).
+        His formidable experience in Procurement & Supply Chain afforded him the opportunity to work with East Cantonments Pharmacy.He has worked with Korle Bu Teaching Hospital
+        Lawrence is now the Operations Manager for Med Point Solutions where he works with various Government entities to solve their urgent need.
+      `,
+      image: lawrence
     },
   ];
 
