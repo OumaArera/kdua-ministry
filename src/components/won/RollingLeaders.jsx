@@ -9,7 +9,7 @@ import rebecca from '../../assets/won/leaders/Rebecca Asankoma Addai.jpg';
 import richard from '../../assets/won/leaders/Richard Asamoah Baah.jpg';
 import gomado from '../../assets/ministry/team/DAVID  GOMADO.jpg';
 import olivia from '../../assets/ministry/team/Olivia Dumaah.jpg';
-import lawrence from '../../assets/ministry/team/Lawrence Awartey.jpg';
+import lawrence from '../../assets/won/leaders/Lawrence Awartey.jpg';
 import phanuel from '../../assets/ministry/team/Phannuel Demanya.jpg';
 import logo from '../../assets/won_logo.png';
 
