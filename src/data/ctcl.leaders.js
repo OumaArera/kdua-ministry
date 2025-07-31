@@ -6,7 +6,8 @@ import seth from '../assets/seth_photo.png';
 import addai from '../assets/addai_photo.png';
 import daniel from '../assets/daniel_photo.png'
 import nkrumah from "../assets/nkuruma.png";
-
+import bismark from '../assets/Bismark_Photo.png';
+import jacob from '../assets/Jacob_Photo.png';
 import david_gomado from '../assets/david_gomado.png';
 import kingford from '../assets/kingford_photo.jpeg';
 import olivia from '../assets/olivia_photo.png';
@@ -102,7 +103,7 @@ export const managementTeam = [
       experience: `
         Lorem ipsum dolor
       `,
-      image: null
+      image: bismark
     },
     {
       name: "JACOB OSEI",
@@ -110,7 +111,7 @@ export const managementTeam = [
       experience: `
         Lorem ipsum dolor
       `,
-      image: null
+      image: jacob
     },
     {
       name: "SETH ASIEDU",

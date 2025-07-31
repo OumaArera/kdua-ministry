@@ -11,6 +11,8 @@ import nkrumah from '../../assets/ctcl/Bro. Nkrumah Botchway.jpg';
 import gomado from '../../assets/ministry/team/DAVID  GOMADO.jpg';
 import olivia from '../../assets/ministry/team/Olivia Dumaah.jpg';
 import konor from '../../assets/ctcl/Emmanuel Kanor.jpg';
+import jacob from '../../assets/Jacob Osei.jpg';
+import bismark from '../../assets/Bismark Owusu.jpg';
 import logo from '../../assets/CTCL.png';
 
 const RollingLeaders = () => {
@@ -76,6 +78,16 @@ const RollingLeaders = () => {
       name: "Kanor Emmanuel",
       title: "Board Member",
       image: konor
+    },
+    {
+      name: "Bismark",
+      title: "Board Member",
+      image: bismark
+    },
+    {
+      name: "Jacob Osei",
+      title: "Board Member",
+      image: jacob
     },
   ];
 
