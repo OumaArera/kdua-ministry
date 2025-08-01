@@ -5,7 +5,7 @@ import doris_amuzu from '../assets/doris_amuzu_photo.png';
 import obeng from '../assets/obeng_photo.png';
 import lawrence from '../assets/lawrence_photo.png';
 import addai from '../assets/addai_photo.png';
-
+import botchway from '../assets/aseda/leaders/Botchway.png';
 import david_gomado from '../assets/david_gomado.png';
 import kingford from '../assets/kingford_photo.jpeg';
 import olivia from '../assets/olivia_photo.png';
@@ -142,5 +142,17 @@ export const managementTeam = [
         Kingsford is always seeking a challenging and rewarding role where he can leverage his skills and contribute to a dynamic team.
       `,
       image: kingford
+    },
+    {
+      name: "Prince Botchway",
+      role: "Head of Organizers",
+      experience: `
+        A versatile resilient pious Mechanical Engineer from KNUST with a strong background in the downstream oil and gas industry. 
+        As a young professional and transformational leader, I am guided by core values of integrity, discipline, and resilience, which enable me to navigate complex challenges and deliver impactful results. 
+        With a passion for making a positive difference, I am committed to utilizing my skills and talents to contribute to the betterment of society as the Almighty has given and commanded. 
+        My way of life is rooted in the belief that 'Let love lead' - fostering a culture of empathy, collaboration, and mutual respect. 
+        I am excited to collaborate with like-minded professionals to drive progress and achieve exceptional outcomes.
+      `,
+      image: botchway
     },
   ];
