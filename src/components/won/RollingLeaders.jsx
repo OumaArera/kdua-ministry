@@ -11,6 +11,7 @@ import gomado from '../../assets/ministry/team/DAVID  GOMADO.jpg';
 import olivia from '../../assets/ministry/team/Olivia Dumaah.jpg';
 import lawrence from '../../assets/won/leaders/Lawrence Awartey.jpg';
 import phanuel from '../../assets/ministry/team/Phannuel Demanya.jpg';
+import botchway from '../../assets/won/leaders/Prince Botchway.jpg';
 import logo from '../../assets/won_logo.png';
 
 const RollingLeaders = () => {
@@ -76,6 +77,11 @@ const RollingLeaders = () => {
       name: "Lawrence",
       title: "Board Member",
       image: lawrence
+    },
+    {
+      name: "Botchway",
+      title: "Board Member",
+      image: botchway
     },
   ];
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import { FaWhatsapp, FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
 import logo from '../assets/logo.png';
@@ -6,6 +7,7 @@ import ContactUs from '../components/ministry/Contact';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const navigate = useNavigate()
 
   const ministryLinks = {
     ministry: [
@@ -141,7 +143,7 @@ const Footer = () => {
                 {ministryLinks.ministry.map((link, index) => (
                   <li key={index}>
                     <button
-                      onClick={() => handleNavigation(link.href)}
+                      onClick={() => navigate(link.href)}
                       className="text-gray-400 hover:text-teal-400 text-base transition-colors duration-200 hover:translate-x-1 transform"
                     >
                       {link.name}
@@ -158,7 +160,7 @@ const Footer = () => {
                 {ministryLinks.programs.map((link, index) => (
                   <li key={index}>
                     <button
-                      onClick={() => handleNavigation(link.href)}
+                      onClick={() => navigate(link.href)}
                       className="text-gray-400 hover:text-teal-400 text-base transition-colors duration-200 hover:translate-x-1 transform"
                     >
                       {link.name}
@@ -175,7 +177,7 @@ const Footer = () => {
                 {ministryLinks.connect.map((link, index) => (
                   <li key={index}>
                     <button
-                      onClick={() => handleNavigation(link.href)}
+                      onClick={() => navigate(link.href)}
                       className="text-gray-400 hover:text-teal-400 text-base transition-colors duration-200 hover:translate-x-1 transform"
                     >
                       {link.name}

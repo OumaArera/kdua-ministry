@@ -81,7 +81,7 @@ export const managementTeam = [
         A born again Christian who is passionate about the spread of the gospel and church planting. 
         He holds a diploma in theology from church of Christ Bible college at Sunyani. 
         As a professional teacher,he went to Atebubu college of education in 2001 and completed in 2004 teachers certificate A. 
-        Passionate about academic excellence,he had his Diploma in Basic education in Bechem college of education in 2009 and subsequently had my Degree in 2012 at University of education, winneba.He pursued higher and obtained masters in educational leadership and administration in 2019 at Valley view university in Techiman, Ghana.
+        Passionate about academic excellence,he had his Diploma in Basic education in Bechem college of education in 2009 and subsequently had my Degree in 2012 at University of education-Winneba, winneba.He pursued higher and obtained masters in educational leadership and administration in 2019 at Valley view university in Techiman, Ghana.
         Its my fervent prayer that all mankind will know their creator and their purpose on this earth.I want to know God more and therefore duty -conscious about kingdomnomics. 
         `,
         image: null
@@ -117,7 +117,7 @@ export const managementTeam = [
       name: "SETH ASIEDU",
       role: "Monitoring & Evaluation Manager",
       experience: `
-        Seth Asiedu hold Diploma in education from Atebubu Training College and a Bachelor’s degree in Mathematics Education from University of Education, Winneba. He was a tutor at Presbyterian Senior High School, Bechem. 
+        Seth Asiedu hold Diploma in education from Atebubu Training College and a Bachelor’s degree in Mathematics Education from University of Education-Winneba. He was a tutor at Presbyterian Senior High School, Bechem. 
         He gain admission to  Kwame Nkrumah University of Science and Technology, Kumasi in 2012 to study Master of Science (Industrial Mathematics). 
         He also attended Ghana Bible College in 2017 and  became a preacher at Church of Christ, Derma in the Ahafo region till 2023. 
         Seth is now a tutor at Tarkwa as a mathematics tutor in Fiaseman Senior High School and currently a Preacher at Tamso Church of Christ.

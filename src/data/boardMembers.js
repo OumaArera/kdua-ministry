@@ -14,6 +14,8 @@ import addai from '../assets/addai_photo.png';
 import frimpong from '../assets/frimpong_photo.png';
 import kingford from '../assets/kingford_photo.jpeg';
 import olivia from '../assets/olivia_photo.png';
+import botchway from '../assets/aseda/leaders/Botchway.png';
+import seth from '../assets/seth_photo.png';
 
 export const messageOfTheGroupChairman = [
     {
@@ -123,7 +125,18 @@ export const boardOfDirectors = [
       `,
       image: doris
     },
-    
+    {
+      name: "DAVID D. G. GOMADO",
+      role: "Group Director of  Communication ",
+      experience: `
+        David Gomado is a Ghanaian communications professional with a diverse background in journalism, communications, and public leadership. 
+        He  holds a Bachelor degree and Masters degree in Communication from AUCC. David worked as the Administrator at CCT GROUP and also the Business Development manager at Glasten Rental. 
+        Currently, he serves as the Communications and Alumni Associate at Emerging Public Leaders, a role he's held since 2024.Prior to his current position, Gomado worked as a Communication Support at the Ghana Center For Democratic Development from 2020 to 2024. 
+        He's also a freelance journalist, covering topics such as environment and health in Ghana . Gomado's work has focused on promoting democratic development, public leadership, and social issues in Ghana. 
+        His expertise spans communications, journalism, and public policy, making him a versatile professional in his field.
+      `,
+      image: david_gomado
+    },
   ];
 
 export const managementTeam = [
@@ -269,5 +282,42 @@ export const managementTeam = [
         Kingsford is always seeking a challenging and rewarding role where he can leverage his skills and contribute to a dynamic team.
       `,
       image: kingford
+    },
+    {
+      name: "EMMANUEL KANOR",
+      role: "Executive Secretary",
+      experience: `
+        He is a native of Big Ada in the Greater Accra Region of Ghana married with five children. 
+        A born again Christian who is passionate about the spread of the gospel and church planting. 
+        He holds a diploma in theology from church of Christ Bible college at Sunyani. 
+        As a professional teacher,he went to Atebubu college of education in 2001 and completed in 2004 teachers certificate A. 
+        Passionate about academic excellence,he had his Diploma in Basic education in Bechem college of education in 2009 and subsequently had my Degree in 2012 at University of education-Winneba, winneba.He pursued higher and obtained masters in educational leadership and administration in 2019 at Valley view university in Techiman, Ghana.
+        Its my fervent prayer that all mankind will know their creator and their purpose on this earth.I want to know God more and therefore duty -conscious about kingdomnomics. 
+      `,
+      image: null
+    },
+    {
+      name: "Prince Botchway",
+      role: "Head of Organizers",
+      experience: `
+        A versatile resilient pious Mechanical Engineer from KNUST with a strong background in the downstream oil and gas industry. 
+        As a young professional and transformational leader, I am guided by core values of integrity, discipline, and resilience, which enable me to navigate complex challenges and deliver impactful results. 
+        With a passion for making a positive difference, I am committed to utilizing my skills and talents to contribute to the betterment of society as the Almighty has given and commanded. 
+        My way of life is rooted in the belief that 'Let love lead' - fostering a culture of empathy, collaboration, and mutual respect. 
+        I am excited to collaborate with like-minded professionals to drive progress and achieve exceptional outcomes.
+      `,
+      image: botchway
+    },
+    {
+      name: "SETH ASIEDU",
+      role: "Monitoring & Evaluation Manager",
+      experience: `
+        Seth Asiedu hold Diploma in education from Atebubu Training College and a Bachelor’s degree in Mathematics Education from University of Education-Winneba. He was a tutor at Presbyterian Senior High School, Bechem. 
+        He gain admission to  Kwame Nkrumah University of Science and Technology, Kumasi in 2012 to study Master of Science (Industrial Mathematics). 
+        He also attended Ghana Bible College in 2017 and  became a preacher at Church of Christ, Derma in the Ahafo region till 2023. 
+        Seth is now a tutor at Tarkwa as a mathematics tutor in Fiaseman Senior High School and currently a Preacher at Tamso Church of Christ.
+        Seth has held a number of positions including; Head of Department for mathematics (at Presbyterian Senior High School, Bechem), Vice chair for United Nation Association of Ghana (Ahafo Region), an Associate member of Chartered Institute of Peace and Governance (CIPG) in Ghana and a currently the monitoring and evaluation manager  of Lamp-up GH.
+      `,
+      image: seth
     },
   ];

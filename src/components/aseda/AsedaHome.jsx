@@ -3,7 +3,7 @@ import { ArrowRight, Music, Award, Users, Phone, Heart } from 'lucide-react';
 import ContactOverlay from './ContactOverlay';
 import CoreValues from './CoreValues';
 import AboutAseda from './AboutAseda';
-import logo from '../../assets/aseda_logo.png';
+import logo from '../../assets/Aseda_logo.png';
 import home from '../../assets/aseda/speaker7.jpg';
 import home1 from '../../assets/aseda/sing4.jpg';
 import home2 from '../../assets/aseda/sing1.jpg';

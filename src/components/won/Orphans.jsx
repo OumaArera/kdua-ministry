@@ -1,8 +1,7 @@
 import React, { useState, useRef, useCallback } from "react";
 import { ArrowLeft, ChevronLeft, ChevronRight, Heart, Users, Calendar, MapPin, X, Baby } from "lucide-react";
 import { orphans } from "../../data/won.data";
-// Mock data for demonstration
-// const orphans = Array.from({ length: 45 }, (_, i) => `https://picsum.photos/400/400?random=${i + 200}`);
+
 
 const Orphans = ({ onClose }) => {
   const [currentPage, setCurrentPage] = useState(0);
@@ -10,7 +9,7 @@ const Orphans = ({ onClose }) => {
   const [loadedImages, setLoadedImages] = useState(new Set());
   const observer = useRef();
 
-  const imagesPerPage = 6; // Match Education component
+  const imagesPerPage = 6; 
   const totalPages = Math.ceil(orphans.length / imagesPerPage);
   const currentImages = orphans.slice(currentPage * imagesPerPage, (currentPage + 1) * imagesPerPage);
 
@@ -18,7 +17,6 @@ const Orphans = ({ onClose }) => {
     if (observer.current) observer.current.disconnect();
     observer.current = new IntersectionObserver(entries => {
       if (entries[0].isIntersecting) {
-        // Trigger loading of next page if needed
       }
     });
     if (node) observer.current.observe(node);

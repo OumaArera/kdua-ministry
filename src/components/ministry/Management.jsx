@@ -11,6 +11,9 @@ import olivia from '../../assets/ministry/Olivia Dumaah.jpg';
 import phanuel from '../../assets/ministry/Phannuel Demanya1.jpg';
 import richard from '../../assets/leaders/Richard Asamoah Baah.jpg';
 import rebecca from '../../assets/ministry/Rebecca Asankoma Addai1.jpg';
+import botchway from '../../assets/ministry/Prince Botchway.jpg';
+import seth from '../../assets/ctcl/Seth Asiedu.jpg';
+import konor from '../../assets/ctcl/Emmanuel Kanor.jpg';
 import logo from '../../assets/ministry/logos.jpeg';
 
 
@@ -76,6 +79,21 @@ const Management = () => {
       name: "Olivia",
       title: "Executive Director",
       image: olivia
+    },
+    {
+      name: "Botchway",
+      title: "Executive Director",
+      image: botchway
+    },
+    {
+      name: "Seth",
+      title: "Executive Director",
+      image: seth
+    },
+    {
+      name: "Konor",
+      title: "Executive Director",
+      image: konor
     },
     
   ];

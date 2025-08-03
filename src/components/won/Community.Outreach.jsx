@@ -8,7 +8,7 @@ const CommunityOutreach = ({ onClose }) => {
   const [loadedImages, setLoadedImages] = useState(new Set());
   const observer = useRef();
 
-  const imagesPerPage = 6; // Show more images per page
+  const imagesPerPage = 6; 
   const totalPages = Math.ceil(community.length / imagesPerPage);
   const currentImages = community.slice(currentPage * imagesPerPage, (currentPage + 1) * imagesPerPage);
 

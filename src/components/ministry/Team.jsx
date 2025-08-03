@@ -21,6 +21,8 @@ import kingford from '../../assets/ministry/team/KINGSFORD AGYEI.jpg';
 import seth from '../../assets/ministry/team/Seth Asiedu.jpg';
 import daniel from '../../assets/ministry/team/Daniel Anyebas.jpg';
 import phanuel from '../../assets/ministry/team/Phannuel Demanya.jpg';
+import botchway from '../../assets/ministry/Prince Botchway.jpg';
+import konor from '../../assets/ctcl/Emmanuel Kanor.jpg';
 import logo from '../../assets/ministry/logos.jpeg';
 
 
@@ -136,6 +138,16 @@ const Team = () => {
       name: "Phanuel",
       title: "Board Member",
       image: phanuel
+    },
+    {
+      name: "Botchway",
+      title: "Board Member",
+      image: botchway
+    },
+    {
+      name: "Konor",
+      title: "Board Member",
+      image: konor
     },
   ];
 

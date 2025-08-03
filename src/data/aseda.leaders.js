@@ -10,6 +10,7 @@ import david_gomado from '../assets/david_gomado.png';
 import kingford from '../assets/kingford_photo.jpeg';
 import olivia from '../assets/olivia_photo.png';
 import phanuel from '../assets/phanuel_photo.png';
+import carl from '../assets/aseda/leaders/Carl Lokko.png';
 
 export const managementTeam = [
     {
@@ -154,5 +155,13 @@ export const managementTeam = [
         I am excited to collaborate with like-minded professionals to drive progress and achieve exceptional outcomes.
       `,
       image: botchway
+    },
+    {
+      name: "Carl Lokko",
+      role: "Organizer",
+      experience: `
+        Lorem ipsum
+      `,
+      image: carl
     },
   ];

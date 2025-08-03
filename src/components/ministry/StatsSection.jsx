@@ -1,6 +1,5 @@
 import React from 'react';
 import { Church, Users, Gift, Heart, Compass, Target, Sunrise, Cross, HelpingHand } from 'lucide-react';
-import logo from '../../assets/logo.png';
 
 const AboutSection = () => {
   return (

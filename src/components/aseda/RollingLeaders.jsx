@@ -6,7 +6,9 @@ import kingford from '../../assets/aseda/leaders/Kingsford Agyei.jpg';
 import lawrence from '../../assets/aseda/leaders/Lawrence Awartey.jpg';
 import obeng from '../../assets/aseda/leaders/Obeng Kyei Baffour.jpg';
 import rebecca from '../../assets/aseda/leaders/Rebecca Asankoma Addai.jpg';
-import logo from '../../assets/aseda_logo.png';
+import botchway from '../../assets/aseda/leaders/Prince Botchway.jpg';
+import carl from '../../assets/Carl Lokko.jpg';
+import logo from '../../assets/Aseda_logo.png';
 
 const RollingLeaders = () => {
   const teamMembers = [
@@ -45,6 +47,16 @@ const RollingLeaders = () => {
       name: "Kingsford Agyei",
       title: "Board Member",
       image: kingford
+    },
+    {
+      name: "Botchway",
+      title: "Board Member",
+      image: botchway
+    },
+    {
+      name: "Carl",
+      title: "Board Member",
+      image: carl
     },
   ];
 

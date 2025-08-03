@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { Users, Heart, BookOpen, ChevronDown, ChevronUp, Target, Eye, Sparkles, Globe, Church, ArrowRight, Quote, Star, Sunrise, Cross, HelpingHand } from 'lucide-react';
 import ContactUs from "./Contact";
 
@@ -7,6 +8,7 @@ const AboutUs = () => {
   const [expandedSection, setExpandedSection] = useState(null);
   const [isVisible, setIsVisible] = useState(false);
   const [showContact, setShowContact] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     setIsVisible(true);
@@ -17,7 +19,7 @@ const AboutUs = () => {
   };
 
   const handleNavigation = (route) => {
-    window.location.href = `/${route}`;
+    navigate(route);
   };
 
   return (
@@ -248,7 +250,7 @@ const AboutUs = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <button 
-                  onClick={() => handleNavigation('kduah-ministry/our-team')}
+                  onClick={() => handleNavigation('/kduah-ministry/our-team')}
                   className="bg-white text-teal-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg"
                 >
                   Meet Our Team

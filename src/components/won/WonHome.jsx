@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { ArrowRight, Heart, Users, Phone } from 'lucide-react';
 import ContactOverlay from './ContactOverlay';
 import WonProjects from './WonProjects';
@@ -24,11 +25,8 @@ import widow4 from '../../assets/won/edu1.jpg';
 const WonHome = () => {
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const navigate = useNavigate();
 
-  // Mock logo and images - replace with actual imports
-  // const logo = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23663399'/%3E%3Ctext x='50' y='58' text-anchor='middle' fill='white' font-size='20' font-weight='bold'%3EWON%3C/text%3E%3C/svg%3E";
-  
-  // Sliding images arrays
   const orphanImages = [
     orphan1,
     orphan2,
@@ -44,7 +42,6 @@ const WonHome = () => {
     widow4
   ];
 
-  // Project images for the projects section
   const projectImages = {
     widow: widow,
     orphans: orphans,
@@ -52,7 +49,6 @@ const WonHome = () => {
     education: education
   };
 
-  // Mouse tracking for interactive background elements
   useEffect(() => {
     const handleMouseMove = (e) => {
       setMousePosition({ x: e.clientX, y: e.clientY });
@@ -62,8 +58,7 @@ const WonHome = () => {
   }, []);
 
   const handleTeamNavigation = () => {
-    // Replace with your routing logic
-    window.location.href = '/won/team';
+    navigate('/won/team');
   };
 
   return (

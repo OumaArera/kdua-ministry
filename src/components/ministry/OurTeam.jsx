@@ -143,7 +143,7 @@ const OurTeam = () => {
               <img 
                 src={member.image} 
                 alt={member.name}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             ) : (
               <div className="w-full h-full bg-gradient-to-br from-teal-500 via-blue-500 to-purple-500 flex items-center justify-center">

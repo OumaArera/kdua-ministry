@@ -6,6 +6,8 @@ import emmanuel from '../../assets/leaders/Emmanuel Victor Agyare.jpg';
 import richard from '../../assets/leaders/Richard Asamoah Baah.jpg';
 import avianna from '../../assets/leaders/Aviana Ohemaa Donkor.jpg';
 import david from '../../assets/leaders/DAVID  BOAMAH-ODURO.jpg';
+import botchway from '../../assets/ministry/Prince Botchway.jpg';
+import gomado from '../../assets/ministry/DAVID  GOMADO1.jpg';
 import logo from '../../assets/ministry/logos.jpeg';
 
 
@@ -46,6 +48,16 @@ const RollingLeaders = () => {
       name: "David Boamah-Oduro",
       title: "Executive Director",
       image: david
+    },
+    {
+      name: "Botchway",
+      title: "Executive Director",
+      image: botchway
+    },
+    {
+      name: "Gomado",
+      title: "Executive Director",
+      image: gomado
     }
   ];
 
