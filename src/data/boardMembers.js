@@ -16,6 +16,7 @@ import kingford from '../assets/kingford_photo.jpeg';
 import olivia from '../assets/olivia_photo.png';
 import botchway from '../assets/aseda/leaders/Botchway.png';
 import seth from '../assets/seth_photo.png';
+import amposah from '../assets/Michael Amposah.jpeg';
 
 export const messageOfTheGroupChairman = [
     {
@@ -198,7 +199,7 @@ export const managementTeam = [
         He holds a Bachelor of Arts in Economics and Mathematics and an M.Phil. in Risk Management and Insurance from the University of Ghana and is currently pursuing an M.S. in Financial Engineering at World Quant University. 
         He is also a holder of the Ghana Securities Industry Certificate and is proficient in Python, R, and MT5.
       `,
-      image: null
+      image: amposah
     },
     {
       name: "LAWRENCE AWARTEY",
@@ -291,7 +292,7 @@ export const managementTeam = [
         A born again Christian who is passionate about the spread of the gospel and church planting. 
         He holds a diploma in theology from church of Christ Bible college at Sunyani. 
         As a professional teacher,he went to Atebubu college of education in 2001 and completed in 2004 teachers certificate A. 
-        Passionate about academic excellence,he had his Diploma in Basic education in Bechem college of education in 2009 and subsequently had my Degree in 2012 at University of education-Winneba, winneba.He pursued higher and obtained masters in educational leadership and administration in 2019 at Valley view university in Techiman, Ghana.
+        Passionate about academic excellence,he had his Diploma in Basic education in Bechem college of education in 2009 and subsequently had my Degree in 2012 at University of Education-Winneba, winneba.He pursued higher and obtained masters in educational leadership and administration in 2019 at Valley view university in Techiman, Ghana.
         Its my fervent prayer that all mankind will know their creator and their purpose on this earth.I want to know God more and therefore duty -conscious about kingdomnomics. 
       `,
       image: null

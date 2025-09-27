@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import ContactUs from './Contact';
-
-// Child Components
+import VideoOverlay from '../../services/VideoOverlay'; 
+import introVid from '../../assets/kdua.mp4';
 import HeroSection from './HeroSection';
 import ProgramsSection from './ProgramsSection';
 import AboutSection from './StatsSection';
@@ -14,7 +14,12 @@ import Team from './Team';
 
 const Home = () => {
   const [showContact, setShowContact] = useState(false);
+  const [showIntroVideo, setShowIntroVideo] = useState(false);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    setShowIntroVideo(true);
+  }, []);
 
   const handleNavigation = (route) => {
     navigate(route);
@@ -43,6 +48,16 @@ const Home = () => {
       <ContactUs 
         isOpen={showContact} 
         onClose={() => setShowContact(false)} 
+      />
+      
+      {/* Intro Video Overlay */}
+      <VideoOverlay
+        isOpen={showIntroVideo}
+        onClose={() => setShowIntroVideo(false)}
+        videoSrc={introVid}
+        autoPlay={true}
+        showCloseButton={true}
+        closeOnVideoEnd={false}
       />
     </div>
   );

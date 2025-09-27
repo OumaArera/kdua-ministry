@@ -11,7 +11,7 @@ import widow from '../../assets/won/wd5.jpg';
 import orphans from '../../assets/won/or9.jpg';
 import community from '../../assets/won/cm3.jpg';
 import education from '../../assets/won/edu3.jpg';
-// Data to display
+import introVid from '../../assets/won.mp4';
 import orphan1 from '../../assets/won/or1.jpg';
 import orphan2 from '../../assets/won/or6.jpg';
 import orphan3 from '../../assets/won/or14.jpeg';
@@ -21,11 +21,17 @@ import widow1 from '../../assets/won/wd1.jpg';
 import widow2 from '../../assets/won/wd4.jpg';
 import widow3 from '../../assets/won/wd6.jpeg';
 import widow4 from '../../assets/won/edu1.jpg';
+import VideoOverlay from '../../services/VideoOverlay';
 
 const WonHome = () => {
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const navigate = useNavigate();
+  const [showIntroVideo, setShowIntroVideo] = useState(false);
+  
+  useEffect(() => {
+    setShowIntroVideo(true);
+  }, []);
 
   const orphanImages = [
     orphan1,
@@ -218,6 +224,15 @@ const WonHome = () => {
 
       {/* Contact Overlay */}
       <ContactOverlay isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />
+      {/* Intro Video Overlay */}
+      <VideoOverlay
+        isOpen={showIntroVideo}
+        onClose={() => setShowIntroVideo(false)}
+        videoSrc={introVid}
+        autoPlay={true}
+        showCloseButton={true}
+        closeOnVideoEnd={false}
+      />
 
       <style jsx>{`
         @keyframes slide-right-to-left {

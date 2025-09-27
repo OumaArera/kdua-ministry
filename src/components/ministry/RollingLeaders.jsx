@@ -49,11 +49,11 @@ const RollingLeaders = () => {
       title: "Executive Director",
       image: david
     },
-    {
-      name: "Botchway",
-      title: "Executive Director",
-      image: botchway
-    },
+    // {
+    //   name: "Botchway",
+    //   title: "Executive Director",
+    //   image: botchway
+    // },
     {
       name: "Gomado",
       title: "Executive Director",

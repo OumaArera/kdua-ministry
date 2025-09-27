@@ -121,7 +121,7 @@ export const managementTeam = [
         He gain admission to  Kwame Nkrumah University of Science and Technology, Kumasi in 2012 to study Master of Science (Industrial Mathematics). 
         He also attended Ghana Bible College in 2017 and  became a preacher at Church of Christ, Derma in the Ahafo region till 2023. 
         Seth is now a tutor at Tarkwa as a mathematics tutor in Fiaseman Senior High School and currently a Preacher at Tamso Church of Christ.
-        Seth has held a number of positions including; Head of Department for mathematics (at Presbyterian Senior High School, Bechem), Vice chair for United Nation Association of Ghana (Ahafo Region), an Associate member of Chartered Institute of Peace and Governance (CIPG) in Ghana and a currently the monitoring and evaluation manager  of Lamp-up GH.
+        Seth has held a number of positions including; Head of Department for mathematics (at Presbyterian Senior High School, Bechem), Vice chair for United Nation Association of Ghana (Ahafo Region), an Associate member of Chartered Institute of Peace and Governance (CIPG) in Ghana and a currently the monitoring and evaluation manager  of CTCL.
       `,
       image: seth
     },

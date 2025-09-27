@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { ArrowRight, Music, Award, Users, Phone, Heart } from 'lucide-react';
 import ContactOverlay from './ContactOverlay';
 import CoreValues from './CoreValues';
@@ -8,18 +9,29 @@ import home from '../../assets/aseda/speaker7.jpg';
 import home1 from '../../assets/aseda/sing4.jpg';
 import home2 from '../../assets/aseda/sing1.jpg';
 import RollingLeaders from './RollingLeaders';
+import VideoOverlay from '../../services/VideoOverlay';
+import introVid from '../../assets/aseda.mp4';
+import upcoming8 from '../../assets/upcoming/upcm8.jpg';
+import CircularEvents from '../../services/CircularEvents';
 
 const AsedaHome = () => {
   const [isContactOpen, setIsContactOpen] = useState(false);
+  const [showIntroVideo, setShowIntroVideo] = useState(false);
+  const navigate = useNavigate();
+  const eventImages = [
+    upcoming8
+  ];
+
+  useEffect(() => {
+    setShowIntroVideo(true);
+  }, []);
 
   const handleTeamNavigation = () => {
-    // Replace with your routing logic
-    window.location.href = '/aseda/team';
+    navigate('/aseda/team');
   };
 
   const handleEventsNavigation = () => {
-    // Replace with your routing logic
-    window.location.href = '/aseda/events';
+    navigate('/aseda/events');
   };
 
   return (
@@ -225,6 +237,23 @@ const AsedaHome = () => {
 
       {/* Contact Overlay */}
       <ContactOverlay isOpen={isContactOpen} onClose={() => setIsContactOpen(false)} />
+      {/* Intro Video Overlay */}
+      <VideoOverlay
+        isOpen={showIntroVideo}
+        onClose={() => setShowIntroVideo(false)}
+        videoSrc={introVid}
+        autoPlay={true}
+        showCloseButton={true}
+        closeOnVideoEnd={false}
+      />
+      <CircularEvents 
+        images={eventImages}
+        containerSize={900}
+        imageSize={160}
+        animationDuration={25}
+        title="Upcoming Events"
+        showTitle={true}
+      />
     </div>
   );
 };

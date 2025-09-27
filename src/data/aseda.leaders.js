@@ -68,7 +68,7 @@ export const managementTeam = [
       name: "DORIS AMUZU DUAH",
       role: "Director of Finance & Administration",
       experience: `
-        Doris Amuzu Duah hold a BA in Human Resource from the University of Winneba. 
+        Doris Amuzu Duah hold a BA in Human Resource from the University of Education-Winneba. 
         She has worked with Fish wisely Company where she was the Head of Administration. 
         Currently, she is the head of  Administration  and Finance for KDuah Ministries and Companies.
       `,

@@ -1,17 +1,16 @@
 import React from 'react';
-import upcoming1 from '../../assets/upcoming/upcm1.jpeg';
-import upcoming2 from '../../assets/upcoming/Event 1.jpeg';
-import upcoming3 from '../../assets/upcoming/Event 2.jpeg';
-import upcoming4 from '../../assets/upcoming/Event 3.jpeg';
-import upcoming5 from '../../assets/upcoming/upcm5.jpeg';
-import upcoming6 from '../../assets/upcoming/Event 4.jpeg';
-import upcoming7 from '../../assets/upcoming/Event 5.jpeg';
+import upcoming1 from '../../assets/upcoming/Event 1.jpeg';
+import upcoming2 from '../../assets/upcoming/Event 5.jpeg';
+import upcoming3 from '../../assets/upcoming/upcm6.jpg';
+import upcoming4 from '../../assets/upcoming/upcm7.jpg';
+import upcoming5 from '../../assets/upcoming/upcm10.jpg';
 
 
 const UpcomingEventsSection = () => {
-  const images = [upcoming2, upcoming3, upcoming4, upcoming5, upcoming6, upcoming7];
+  const images = [
+    upcoming1, upcoming2, upcoming3, upcoming4, upcoming5
+  ];
 
-  // Duplicate images for seamless scroll
   const duplicatedImages = [...images, ...images];
 
   return (

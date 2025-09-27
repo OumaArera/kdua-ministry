@@ -1,17 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Calendar, Clock, ChevronLeft, ChevronRight, Play, Pause, MapPin, Users, ExternalLink } from 'lucide-react';
-import upcm1 from '../../assets/upcoming/upcm1.jpeg';
 import upcm2 from '../../assets/upcoming/upcm2.jpeg';
-import upcm3 from '../../assets/upcoming/upcm3.jpeg';
-import upcm4 from '../../assets/upcoming/upcm4.jpeg';
 import upcm5 from '../../assets/upcoming/upcm5.jpeg';
 import ContactUs from "./Contact";
 
-const events = [upcm1, upcm2, upcm3, upcm4, upcm5];
 
 const UpcomingEvents = () => {
-    // Sample placeholder images - replace with your actual imports
-    const events = [upcm1, upcm2, upcm3, upcm4, upcm5];
+    const events = [upcm2, upcm5];
     
     const eventDate = 'December 13, 2025';
     const staleDate = new Date('2025-12-31');
