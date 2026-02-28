@@ -12,6 +12,7 @@ import david_gomado from '../assets/david_gomado.png';
 import kingford from '../assets/kingford_photo.jpeg';
 import olivia from '../assets/olivia_photo.png';
 import phanuel from '../assets/phanuel_photo.png';
+import kwaku from '../assets/ctcl/Kwaku Duah Junior-1.jpg';
 
 export const managementTeam = [
     {
@@ -23,7 +24,7 @@ export const managementTeam = [
         He has worked with SITEL Group and Oliver Rainey & Wojket Accounting firm in Texas and also worked as a Senior Accountant at Davis Crane Motor Service in USA.  
         Currently, he is the Accountant for Alcuin School in Dallas Texas and the Administration, Management  and Internal Audit Consultant for 1st Edmonds and Bothell serenity Home care in Washington State.
       `,
-      image: chairman
+      image: kwaku
     },
     {
       name: "NIXON KWAKU DUAH",

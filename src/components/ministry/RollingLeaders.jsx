@@ -1,5 +1,5 @@
 import React from "react";
-import chairman from '../../assets/leaders/Kwaku Duah Junior1.jpg';
+import kwaku from '../../assets/ministry/Kwaku Duah Junior.jpg';
 import doris from '../../assets/leaders/Doris Effah Kesse.jpg';
 import kwame from '../../assets/leaders/Kwame Tawiah Duah.jpg';
 import emmanuel from '../../assets/leaders/Emmanuel Victor Agyare.jpg';
@@ -16,7 +16,7 @@ const RollingLeaders = () => {
     {
       name: "Kwaku Duah Junior",
       title: "Group Chairman & Founder",
-      image: chairman,
+      image: kwaku,
       isChairman: true
     },
     {
@@ -49,16 +49,31 @@ const RollingLeaders = () => {
       title: "Executive Director",
       image: david
     },
-    // {
-    //   name: "Botchway",
-    //   title: "Executive Director",
-    //   image: botchway
-    // },
     {
       name: "Gomado",
       title: "Executive Director",
       image: gomado
-    }
+    },
+    {
+      name: "Jeniffer",
+      title: "Executive Secretary",
+      image: "/jennifer_main.jpeg"
+    },
+    {
+      name: "Eric",
+      title: "Ambassador",
+      image: "/frimpong_main.jpeg"
+    },
+    {
+      name: "Margaret",
+      title: "Ambassador",
+      image: "/nyarko_main.jpeg"
+    },
+    {
+      name: "Mary",
+      title: "Ambassador",
+      image: "/mary_dede_main.jpeg"
+    },
   ];
 
   return (

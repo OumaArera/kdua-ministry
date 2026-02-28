@@ -13,9 +13,10 @@ import RollingLeaders from './RollingLeaders';
 import VideoOverlay from '../../services/VideoOverlay';
 import introVid from '../../assets/ctcl.mov';
 import CircularEvents from '../../services/CircularEvents';
-import upcoming1 from '../../assets/upcoming/upcm6.jpg';
-import upcoming2 from '../../assets/upcoming/upcm7.jpg';
+import upcoming3 from '../../assets/upcoming/upcm6.jpg';
+import upcoming4 from '../../assets/upcoming/upcm7.jpg';
 import upcoming5 from '../../assets/upcoming/upcm10.jpg';
+
 
 const CTCLHome = () => {
   const [isContactOpen, setIsContactOpen] = useState(false);
@@ -23,7 +24,7 @@ const CTCLHome = () => {
   const [isMilestonesModalOpen, setIsMilestonesModalOpen] = useState(false);
   const [showIntroVideo, setShowIntroVideo] = useState(false);
   const eventImages = [
-    upcoming1, upcoming2, upcoming5
+    upcoming3, upcoming4, upcoming5
   ];
     
   useEffect(() => {

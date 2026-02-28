@@ -3,7 +3,6 @@ import chairman from '../assets/chairman_photo.png';
 import david_oduro from '../assets/david_oduro_photo.png';
 import doris_amuzu from '../assets/doris_amuzu_photo.png';
 import obeng from '../assets/obeng_photo.png';
-import lawrence from '../assets/lawrence_photo.png';
 import addai from '../assets/addai_photo.png';
 import botchway from '../assets/aseda/leaders/Botchway.png';
 import david_gomado from '../assets/david_gomado.png';
@@ -11,6 +10,7 @@ import kingford from '../assets/kingford_photo.jpeg';
 import olivia from '../assets/olivia_photo.png';
 import phanuel from '../assets/phanuel_photo.png';
 import carl from '../assets/aseda/leaders/Carl Lokko.png';
+import kwaku from '../assets/aseda/Kwaku Duah Junior.jpg';
 
 export const managementTeam = [
     {
@@ -22,7 +22,7 @@ export const managementTeam = [
         He has worked with SITEL Group and Oliver Rainey & Wojket Accounting firm in Texas and also worked as a Senior Accountant at Davis Crane Motor Service in USA.  
         Currently, he is the Accountant for Alcuin School in Dallas Texas and the Administration, Management  and Internal Audit Consultant for 1st Edmonds and Bothell serenity Home care in Washington State.
       `,
-      image: chairman
+      image: kwaku
     },
     {
       name: "ELDER RICHMOND AMUZU",
@@ -50,19 +50,6 @@ export const managementTeam = [
         Currently, he is the Account Officer at Consar Limited Ghana and the Executive Director for KDuah Ministries.
       `,
       image: david_oduro
-    },
-    {
-        name: "LAWRENCE AWARTEY",
-        role: "Executive Secretary",
-        experience: `
-        Lawrence Awartey holds a BSC Procurement and Supply Chain Management from University College of Management Studies,Diploma in Business Administration from University of Professional Studies. 
-        Diploma in Marketing from London Center of Marketing.He is a Procurement and Organization Business manager when it comes to procurement and its processes and tender for various hospital.  
-        Lawrence is known for hard and smart innovation in he’s field (Procurement & Supply Chain).  
-        Due to his moral and ethical diligence he got the opportunity to work with Traveler Paradise a sub-diary of Continental Christian Traders Limited (CCT-GROUP).
-        His formidable experience in Procurement & Supply Chain afforded him the opportunity to work with East Cantonments Pharmacy.He has worked with Korle Bu Teaching Hospital
-        Lawrence is now the Operations Manager for Med Point Solutions where he works with various Government entities to solve their urgent need.
-        `,
-        image: lawrence
     },
     {
       name: "DORIS AMUZU DUAH",
@@ -163,5 +150,17 @@ export const managementTeam = [
         Lorem ipsum
       `,
       image: carl
+    },
+    {
+      name: "Seth Nyarko",
+      role: "Executive Secretary",
+      experience: ``,
+      image: "/seth_nyarko_aseda.jpeg"
+    },
+    {
+      name: "Mary Dede Asimeh-Okletey",
+      role: "Chief Usher",
+      experience: ``,
+      image: "/mary_dede_aseda.jpeg"
     },
   ];

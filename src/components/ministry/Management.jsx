@@ -1,11 +1,10 @@
 import React from "react";
-import chairman from '../../assets/leaders/Kwaku Duah Junior1.jpg';
+import kwaku from '../../assets/ministry/Kwaku Duah Junior.jpg';
 import avianna from '../../assets/ministry/Aviana Ohemaa Donkor 1.jpg';
 import doris from '../../assets/ministry/Doris Amuzu Duah1.jpg';
 import boamah from '../../assets/ministry/DAVID  BOAMAH-ODURO1.jpg';
 import gomado from '../../assets/ministry/DAVID  GOMADO1.jpg';
 import kingford from '../../assets/ministry/KINGSFORD AGYEI.jpg';
-import lawrence from '../../assets/ministry/Lawrence Awartey.jpg';
 import obeng from '../../assets/ministry/Obeng Kyei Baffour1.jpg';
 import olivia from '../../assets/ministry/Olivia Dumaah.jpg';
 import phanuel from '../../assets/ministry/Phannuel Demanya1.jpg';
@@ -22,7 +21,7 @@ const Management = () => {
     {
       name: "Kwaku Duah Junior",
       title: "Group Chairman & Founder",
-      image: chairman,
+      image: kwaku,
       isChairman: true
     },
     {
@@ -71,11 +70,6 @@ const Management = () => {
       image: obeng
     },
     {
-      name: "Lawrence",
-      title: "Chief of Staff",
-      image: lawrence
-    },
-    {
       name: "Olivia",
       title: "Executive Director",
       image: olivia
@@ -95,7 +89,26 @@ const Management = () => {
       title: "Executive Director",
       image: konor
     },
-    
+    {
+      name: "Jeniffer",
+      title: "Executive Secretary",
+      image: "/jennifer_main.jpeg"
+    },
+    {
+      name: "Eric",
+      title: "Ambassador",
+      image: "/frimpong_main.jpeg"
+    },
+    {
+      name: "Margaret",
+      title: "Ambassador",
+      image: "/nyarko_main.jpeg"
+    },
+    {
+      name: "Mary",
+      title: "Ambassador",
+      image: "/mary_dede_main.jpeg"
+    },
   ];
 
   return (

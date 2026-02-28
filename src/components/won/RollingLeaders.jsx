@@ -1,5 +1,5 @@
 import React from "react";
-import chairman from '../../assets/won/leaders/Kwaku Duah Junior.jpg';
+import kwaku from '../../assets/won/Kwaku Duah Junior.jpg';
 import doris from '../../assets/won/leaders/Doris Amuzu Duah.jpg';
 import david from '../../assets/won/leaders/DAVID  BOAMAH-ODURO.jpg';
 import kingford from '../../assets/won/leaders/Kingsford Agyei.jpg';
@@ -9,7 +9,6 @@ import rebecca from '../../assets/won/leaders/Rebecca Asankoma Addai.jpg';
 import richard from '../../assets/won/leaders/Richard Asamoah Baah.jpg';
 import gomado from '../../assets/ministry/team/DAVID  GOMADO.jpg';
 import olivia from '../../assets/ministry/team/Olivia Dumaah.jpg';
-import lawrence from '../../assets/won/leaders/Lawrence Awartey.jpg';
 import phanuel from '../../assets/ministry/team/Phannuel Demanya.jpg';
 import botchway from '../../assets/won/leaders/Prince Botchway.jpg';
 import logo from '../../assets/won_logo.png';
@@ -19,7 +18,7 @@ const RollingLeaders = () => {
     {
       name: "Kwaku Duah Junior",
       title: "Group Chairman & Founder",
-      image: chairman,
+      image: kwaku,
       isChairman: true
     },
     {
@@ -72,11 +71,6 @@ const RollingLeaders = () => {
       name: "Gomado",
       title: "Board Member",
       image: gomado
-    },
-    {
-      name: "Lawrence",
-      title: "Board Member",
-      image: lawrence
     },
     {
       name: "Botchway",

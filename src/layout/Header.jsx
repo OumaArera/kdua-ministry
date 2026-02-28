@@ -63,7 +63,8 @@ const Header = ({ activeSection, setActiveSection }) => {
     { key: 'home', label: 'Home' },
     { key: 'won', label: 'WON' },
     { key: 'aseda', label: 'Aseda' },
-    { key: 'ctcl', label: 'CTCL' }
+    { key: 'ctcl', label: 'CTCL' },
+    { key: 'blogs', label: 'Blogs' },
   ];
 
   return (

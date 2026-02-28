@@ -15,6 +15,8 @@ import AsedaEvents from './components/aseda/AsedaEvents';
 import UpcomingEvents from './components/ministry/Upcoming.Events';
 import CTCLHome from './components/ctcl/CTCL.Home';
 import TeamModal from './components/ctcl/TeamModal';
+import Blogs from './components/blogs/Blog';
+import BlogDetails from './components/blogs/BlogDetails';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -59,6 +61,8 @@ function AppContent({ activeSection, setActiveSection }) {
           <Route path="/aseda/events" element={<AsedaEvents />} />
           <Route path="/ctcl" element={<CTCLHome />} />
           <Route path="/ctcl/team" element={<TeamModal />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/blogs/:id" element={<BlogDetails />} />
         </Routes>
       </main>
       <Footer />

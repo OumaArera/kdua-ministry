@@ -1,5 +1,5 @@
 import React from "react";
-import chairman from '../../assets/leaders/Kwaku Duah Junior1.jpg';
+import kwaku from '../../assets/ministry/Kwaku Duah Junior.jpg';
 import doris_effa from '../../assets/ministry/team/Doris Effah Kesse.jpg';
 import emmanuel from '../../assets/ministry/team/Emmanuel Victor Agyare.jpg';
 import kwame from '../../assets/ministry/team/Kwame Tawiah Duah.jpg';
@@ -15,7 +15,6 @@ import gomado from '../../assets/ministry/team/DAVID  GOMADO.jpg';
 import obeng from '../../assets/ministry/team/Obeng Kyei Baffour.jpg'
 import linda from '../../assets/ministry/team/LINDA BARNIE EFFAH.jpg';
 import dacosta from '../../assets/ministry/team/Dacosta Owusu.jpg';
-import lawrence from '../../assets/ministry/team/Lawrence Awartey.jpg';
 import rebecca from '../../assets/ministry/team/Rebecca Asankoma Addai.jpg';
 import kingford from '../../assets/ministry/team/KINGSFORD AGYEI.jpg';
 import seth from '../../assets/ministry/team/Seth Asiedu.jpg';
@@ -31,7 +30,7 @@ const Team = () => {
     {
       name: "Kwaku Duah Junior",
       title: "Group Chairman & Founder",
-      image: chairman,
+      image: kwaku,
       isChairman: true
     },
     {
@@ -110,11 +109,6 @@ const Team = () => {
       image: dacosta
     },
     {
-      name: "Lawrence",
-      title: "Board Member",
-      image: lawrence
-    },
-    {
       name: "Rebecca",
       title: "Board Member",
       image: rebecca
@@ -148,6 +142,26 @@ const Team = () => {
       name: "Konor",
       title: "Board Member",
       image: konor
+    },
+    {
+      name: "Jeniffer",
+      title: "Executive Secretary",
+      image: "/jennifer_main.jpeg"
+    },
+    {
+      name: "Eric",
+      title: "Ambassador",
+      image: "/frimpong_main.jpeg"
+    },
+    {
+      name: "Margaret",
+      title: "Ambassador",
+      image: "/nyarko_main.jpeg"
+    },
+    {
+      name: "Mary",
+      title: "Ambassador",
+      image: "/mary_dede_main.jpeg"
     },
   ];
 

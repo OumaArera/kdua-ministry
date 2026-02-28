@@ -1,5 +1,5 @@
 import React from "react";
-import chairman from '../../assets/ctcl/Kwaku Duah Junior.jpg';
+import kwaku from '../../assets/ctcl/Kwaku Duah Junior-1.jpg';
 import dacosta from '../../assets/ctcl/Dacosta Owusu.jpg';
 import david from '../../assets/ctcl/DAVID  BOAMAH-ODURO.jpg';
 import kingford from '../../assets/ctcl/KINGSFORD AGYEI.jpg';
@@ -20,7 +20,7 @@ const RollingLeaders = () => {
     {
       name: "Kwaku Duah Junior",
       title: "Founder",
-      image: chairman,
+      image: kwaku,
       isChairman: true
     },
     {

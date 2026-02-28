@@ -205,12 +205,12 @@ const Footer = () => {
               <p className="text-gray-500 text-xs sm:text-sm mt-1">
                 Built and maintained by{' '}
                 <a 
-                  href="https://safestack.vercel.app/"
+                  href="https://zafrika.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-teal-400 hover:text-teal-300 transition-colors duration-200"
                 >
-                  SafeStack Technologies
+                  Zafrika Tech Lab
                 </a>
               </p>
             </div>

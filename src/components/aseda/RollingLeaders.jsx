@@ -1,9 +1,8 @@
 import React from "react";
-import chairman from '../../assets/aseda/leaders/Kwaku Duah Junior.jpg';
+import kwaku from '../../assets/aseda/Kwaku Duah Junior.jpg'
 import doris from '../../assets/aseda/leaders/Doris Amuzu Duah.jpg';
 import richmond from '../../assets/aseda/leaders/Elder Richmond Amuzu.jpg';
 import kingford from '../../assets/aseda/leaders/Kingsford Agyei.jpg';
-import lawrence from '../../assets/aseda/leaders/Lawrence Awartey.jpg';
 import obeng from '../../assets/aseda/leaders/Obeng Kyei Baffour.jpg';
 import rebecca from '../../assets/aseda/leaders/Rebecca Asankoma Addai.jpg';
 import botchway from '../../assets/aseda/leaders/Prince Botchway.jpg';
@@ -15,18 +14,13 @@ const RollingLeaders = () => {
     {
       name: "Kwaku Duah Junior",
       title: "Group Chairman & Founder",
-      image: chairman,
+      image: kwaku,
       isChairman: true
     },
     {
       name: "Elder Richmond Amuzu",
       title: "Board Member",
       image: richmond
-    },
-    {
-      name: "Lawrence Awartey",
-      title: "Chief of Staff",
-      image: lawrence
     },
     {
       name: "Doris Effah Kesse",
@@ -57,6 +51,16 @@ const RollingLeaders = () => {
       name: "Carl",
       title: "Board Member",
       image: carl
+    },
+    {
+      name: "Seth",
+      title: "Executive Secretary",
+      image: "/seth_nyarko_aseda.jpeg"
+    },
+    {
+      name: "Mary",
+      title: "Chief Usher",
+      image: "/mary_dede_aseda.jpeg"
     },
   ];
 
